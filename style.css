@@ -138,12 +138,22 @@ a:visited {
   margin-bottom: 2vh;
 }
 
+#spotify {
+    float: right;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/cover.png);
+    width: 55vw;
+    height: 500px;
+    margin-bottom: 2vh;
+  }
+
 #shedd {
   float: right;
   object-fit: cover;
   background-repeat: no-repeat;
   content: url(./images/sheddPattern.png);
-  width: 800px;
+  width: 55vw;
   height: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 2vh;
 }
