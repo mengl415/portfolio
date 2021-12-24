@@ -38,7 +38,7 @@ a:visited {
   position: relative;
   display: flex;
   width: 70%;
-  height: 50vh;
+  height: 60vh;
   min-height: 200px;
   margin-left: 10vw;
   margin-top: 3vh;
@@ -59,11 +59,23 @@ a:visited {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding-top: 0px;
   padding-bottom: 20px;
   font-size: 1.5rem;
   line-height: 1.5rem;
   color: #e4e4e4;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  height: 8vh;
+  margin-left: 10vw;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 /* .sidenav {
@@ -99,6 +111,7 @@ a:visited {
   margin-top: 1vh;
   margin-bottom: -10px;
   color: #e4e4e4;
+  font-size: 2rem;
 }
 
 .galleryType {
@@ -126,6 +139,11 @@ a:visited {
   width: 55vw;
   height: 500px;
   margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#nf:hover {
+  opacity: 0.5;
 }
 
 #emw {
@@ -136,17 +154,27 @@ a:visited {
   width: 55vw;
   height: 500px;
   margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#emw:hover {
+  opacity: 0.5;
 }
 
 #spotify {
-    float: right;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/spotify/cover.png);
-    width: 55vw;
-    height: 500px;
-    margin-bottom: 2vh;
-  }
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/spotify/cover.png);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#spotify:hover {
+  opacity: 0.5;
+}
 
 #shedd {
   float: right;
@@ -156,9 +184,29 @@ a:visited {
   width: 55vw;
   height: 500px;
   margin-bottom: 2vh;
+  opacity: 1;
 }
 
-#scs{
+#shedd:hover {
+  opacity: 0.5;
+}
+
+#persona {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/persona/cover.jpg);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#persona:hover {
+  opacity: 0.5;
+}
+
+#scs {
   float: right;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -166,4 +214,422 @@ a:visited {
   width: 55vw;
   height: 500px;
   margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#scs:hover {
+  opacity: 0.5;
+}
+
+/* media query */
+
+@media only screen and (max-width: 769px) {
+  .topnav a {
+    margin-right: 4vw;
+    margin-top: 3vh;
+    font-size: 1em;
+  }
+
+  .divBlock {
+    width: 70%;
+    height: 45vh;
+    min-height: 200px;
+    margin-left: 8vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .heading {
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .intro {
+    bottom: 0;
+    left: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .footer {
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 5vh;
+    margin-left: 8vw;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .gallery {
+    position: relative;
+    float: right;
+    display: block;
+    width: 85%;
+    margin-right: 8vw;
+    padding-top: 10px;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+  }
+
+  .galleryItem {
+    float: right;
+    margin-bottom: 5vh;
+  }
+
+  .galleryName {
+    margin-top: 1vh;
+    margin-bottom: -10px;
+    font-size: 1.8rem;
+  }
+
+  .galleryType {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #e4e4e4;
+  }
+
+  .workHeading {
+    font-size: 2rem;
+    margin-right: 8vw;
+    margin-top: 3vh;
+    padding-top: 10px;
+  }
+
+  #nf {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #emw {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #spotify {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #shedd {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #persona {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #scs {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+}
+
+@media only screen and (max-width: 481px){
+  .topnav a {
+    margin-right: 4vw;
+    margin-top: 3vh;
+    font-size: 0.8em;
+  }
+
+  .divBlock {
+    width: 90%;
+    height: 60vh;
+    min-height: 200px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 3vh;
+  }
+
+  .heading {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .intro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .footer {
+
+    width: 70%;
+    height: 5vh;
+    margin-left: 5vw;
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+
+  .gallery {
+    position: relative;
+    float: right;
+    display: block;
+    width: 85%;
+    margin-right: 5vw;
+    padding-top: 10px;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+  }
+
+  .galleryItem {
+    float: right;
+    margin-bottom: 5vh;
+  }
+
+  .galleryName {
+    margin-top: 1vh;
+    margin-bottom: -10px;
+    font-size: 1.5rem;
+  }
+
+  .galleryType {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #e4e4e4;
+  }
+
+  .workHeading {
+    font-size: 2rem;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    padding-top: 10px;
+  }
+
+  #nf {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #emw {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #spotify {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #shedd {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #persona {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #scs {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+}
+
+/* media query */
+
+@media only screen and (max-width: 403px){
+  .topnav a {
+    margin-right: 4vw;
+    margin-top: 3vh;
+    font-size: 0.8em;
+  }
+
+  .divBlock {
+    width: 90%;
+    height: 40vh;
+    min-height: 200px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .heading {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .footer {
+
+    width: 70%;
+    height: 5vh;
+    margin-left: 5vw;
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+
+  .gallery {
+    position: relative;
+    float: right;
+    display: block;
+    width: 85%;
+    margin-right: 5vw;
+    padding-top: 10px;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+  }
+
+  .galleryItem {
+    float: right;
+    margin-bottom: 5vh;
+  }
+
+  .galleryName {
+    margin-top: 1vh;
+    margin-bottom: -10px;
+    color: #e4e4e4;
+  }
+
+  .galleryType {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #e4e4e4;
+  }
+
+  .workHeading {
+    font-size: 1.5rem;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    padding-top: 10px;
+  }
+
+  #nf {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #emw {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #spotify {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #shedd {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #persona {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #scs {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+}
+
+@media only screen and (max-width: 305px){
+  .topnav a {
+    margin-right: 4vw;
+    margin-top: 3vh;
+    font-size: 0.8em;
+  }
+
+  .divBlock {
+    width: 90%;
+    height: 48vh;
+    min-height: 200px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  #nf {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #emw {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #spotify {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #shedd {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #persona {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #scs {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
 }
