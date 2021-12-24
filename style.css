@@ -1,116 +1,153 @@
 body {
-    margin: 0;
-    font-family: "Karla", sans-serif;
+  margin: 0;
+  font-family: "Karla", sans-serif;
 }
 
-.topnav a{
-    color: #d4d4d4;
-    margin-left: 5vw;
-    margin-top: 3vh;
-    float: left;
-    padding: 0px -40px;
-    text-decoration: none;
-    font-size: 18px;
+.topnav a {
+  color: #e4e4e4;
+  margin-left: 4vw;
+  margin-top: 3vh;
+  float: left;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 1em;
 }
 
-.topnav a:hover{
-    color: red;
-    text-decoration: none;
+.topnav a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.divBlock{
-    position: relative;
-    display: flex;
-    width: 85%;
-    max-width: 600px;
-    min-height: 200px;
-    margin-left: 5vw;
-    padding-top: 40px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.divBlock {
+  position: relative;
+  display: flex;
+  width: 70%;
+  min-height: 200px;
+  margin-left: 3vw;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-left{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    max-width: 600px;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: flex-start;
+.hero-left {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
 }
 
-.heading{
-    position: static;
-    z-index: 1;
-    font-weight: 600;
-    font-size: 36px;
-    color: #d4d4d4;
+.heading {
+  position: static;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #e4e4e4;
 }
 
 .intro {
-    display: flex;
-    width: 450px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    flex-direction: column;
-    font-size: 18px;
-    line-height: 28px;
-    color: #d4d4d4;
-  }
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #e4e4e4;
+}
 
-  .sidenav{
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 600px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: black; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 30%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
 
-  .projectPreview{
-    position: relative;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    width: 85%;
-    max-width: 800px;
-    min-height: 200px;
-    right: 5vw;
-    padding-top: 10px;
-    text-align: right;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
-  }
+.gallery {
+  position: relative;
+  float: right;
+  display: block;
+  width: 85%;
+  right: 3vw;
+  padding-top: 10px;
+  text-align: right;
+  justify-content: right;
+  align-items: right;
+}
 
-  .workHeading{
-    font-weight: 600;
-    font-size: 36px;
-    color: black;
-    text-align: right;
-    float: right;
-  }
+.galleryItem {
+  float: right;
+  margin-bottom: 5vh;
+}
 
-  .projectWrapper{
-      display: block;
-      justify-self: right;
-      justify-content: right;
-  }
+.galleryName{
+    margin-top: 1vh;
+    margin-bottom: -15px;
+}
 
-   #shedd{
-       float: right;
-       object-fit: cover;
-       background-repeat: no-repeat;
-       content: url(./images/sheddPattern.png);
-       width: 800px;
-       height: 500px;
-   }
+.galleryType{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.workHeading {
+  font-weight: 600;
+  font-size: 36px;
+  color: black;
+  text-align: right;
+  float: right;
+  margin-right: 3vw;
+  margin-top: 3vh;
+  padding-top: 10px;
+}
+
+#nf {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nfPreview.png);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+}
+
+#emw {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/emw/cover.jpg);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+}
+
+#shedd {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/sheddPattern.png);
+  width: 800px;
+  height: 500px;
+  margin-bottom: 50px;
+}
