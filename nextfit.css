@@ -1,0 +1,335 @@
+.nextfit {
+  background-color: #dde2e6;
+}
+
+.divBlockNF {
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 50vh;
+  min-height: 200px;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  float: left;
+  margin-bottom: 0;
+}
+
+.headingNF {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+}
+
+.introNF {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.topnavNF a {
+  color: black;
+  margin-right: 4vw;
+  margin-top: 3vh;
+  float: left;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.topnavNF a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* .footerNextNF a {
+  position: fixed;
+  display: flex;
+  float: right;
+  right: 0;
+  bottom: 0;
+  margin-right: auto;
+  width: 10vw;
+  height: 8vh;
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.footerNextNF a:hover {
+  color: red;
+  text-decoration: none;
+} */
+
+.galleryNF {
+  position: relative;
+  float: left;
+  display: block;
+  width: 85%;
+  margin-left: 8vw;
+  padding-top: 10px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10vh;
+}
+
+.galleryItemNF {
+  float: left;
+  margin-bottom: 5vh;
+}
+
+#designSystem {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nfSystems.svg);
+  width: 55vw;
+  height: auto;
+}
+
+#processNF {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nfProcess.svg);
+  width: 90vw;
+  height: auto;
+}
+
+#nfGoals {
+  float: left;
+  width: 60vw;
+  left: 0;
+  padding-bottom: 20vh;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#nf1 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf1.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf2 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf2.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf3 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf3.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf4 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf4.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf5 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf5.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf6 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf6.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf7 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf7.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf8 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf8.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf9 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf9.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#nf10 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/NextFit/nf10.svg);
+  width: 75vw;
+  height: auto;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1220px) {
+  .divBlockNF {
+    width: 80%;
+    height: 50vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+
+  .headingNF {
+    top: 20%;
+    font-size: 1.7rem;
+  }
+
+  .introNF {
+    font-size: 1em;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 893px) {
+  .divBlockNF {
+    width: 80%;
+    height: 60vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+  .footerNextNF a {
+    margin-right: 8vw;
+    width: 10vw;
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .divBlockNF {
+    width: 80%;
+    height: 60vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+
+  .headingNF {
+    top: 15%;
+    font-size: 1.5rem;
+  }
+
+  .introNF {
+    font-size: 0.8em;
+    line-height: 1.2rem;
+    bottom: 10%;
+  }
+
+  #nfGoals {
+    width: 65vw;
+    left: 0;
+    padding-bottom: 10vh;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .divBlockNF {
+    margin-left: 8vw;
+  }
+  .headingNF {
+    font-size: 1.2rem;
+  }
+
+  .topnavNF a {
+    font-size: 0.8em;
+  }
+
+  .introNF {
+    font-size: 0.8em;
+    line-height: 1.2rem;
+    bottom: 10%;
+  }
+
+  #designSystem {
+    width: 70vw;
+    height: auto;
+  }
+  
+  #processNF {
+    width: 70vw;
+    height: auto;
+  }
+
+  #nfGoals {
+    width: 65vw;
+    left: 0;
+    padding-bottom: 8vh;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  .galleryNF{
+      margin-bottom: 6vh;
+  }
+}
+
+@media only screen and (max-width: 378px){
+    .introNF {
+        font-size: 0.8em;
+        line-height: 1.2rem;
+        bottom: 0;
+      }
+}
