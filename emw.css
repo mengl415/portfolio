@@ -1,0 +1,282 @@
+.emw {
+    background-color: #98CEC7;
+  }
+  
+  .divBlockE {
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 45vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 0;
+  }
+  
+  .headingE {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .introE {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+  }
+  
+  .topnavE a {
+    color: black;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    float: left;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .topnavE a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .galleryE {
+    position: relative;
+    float: left;
+    display: block;
+    width: 85%;
+    margin-left: 8vw;
+    padding-top: 0px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10vh;
+  }
+  
+  .galleryItemE {
+    float: left;
+    margin-bottom: 5vh;
+  }
+  
+  #eCover {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/emwCover.jpg);
+    width: 55vw;
+    height: auto;
+  }
+  
+  #EGoals {
+    float: left;
+    width: 40vw;
+    left: 0;
+    padding-bottom: 10vh;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #eLogo {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/logos.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #eMoodboard {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/moodboard.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #eColor {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/colorType.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #eBC {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/bc.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #eWebsite1 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/website1.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #eWebsite2 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/website2.jpg);
+    width: 75vw;
+    height: auto;
+  }
+  
+  #eMobile {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/emw/mobileMockup.jpg);
+    width: 75vw;
+    height: auto;
+  }
+  
+  
+  /* media query */
+  
+  @media only screen and (max-width: 1220px) {
+    .divBlockE {
+      width: 80%;
+      height: 50vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingE {
+      top: 20%;
+      font-size: 1.7rem;
+    }
+  
+    .introE {
+      font-size: 1em;
+      line-height: 1.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 893px) {
+    .divBlockE {
+      width: 80%;
+      height: 60vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+    .footerNextE a {
+      margin-right: 8vw;
+      width: 10vw;
+      height: 8vh;
+    }
+  }
+  
+  @media only screen and (max-width: 605px) {
+    .divBlockE {
+      width: 80%;
+      height: 60vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingE {
+      top: 15%;
+      font-size: 1.5rem;
+    }
+  
+    .introE {
+      font-size: 0.8em;
+      line-height: 1.2rem;
+      bottom: 10%;
+    }
+  
+    #EGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 10vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 469px) {
+    .divBlockE {
+      margin-left: 8vw;
+    }
+    .headingE {
+      font-size: 1.2rem;
+    }
+  
+    .topnavE a {
+      font-size: 0.8em;
+    }
+  
+    .introE {
+      font-size: 0.8em;
+      line-height: 1.2rem;
+      bottom: 10%;
+    }
+  
+    #eCover {
+      width: 70vw;
+      height: auto;
+    }
+     
+    #EGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 8vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .galleryE{
+        margin-bottom: 6vh;
+    }
+  }
+  
+  @media only screen and (max-width: 378px){
+      .introE {
+          font-size: 0.8em;
+          line-height: 1.2rem;
+          bottom: 0;
+        }
+  }
+  
