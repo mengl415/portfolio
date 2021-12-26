@@ -1,12 +1,12 @@
-.emw {
-    background-color: #98CEC7;
+.spotify {
+    background-color: #353434;
   }
   
-  .divBlockE {
+  .divBlockS {
     position: relative;
     display: flex;
     width: 65%;
-    height: 45vh;
+    height: 50vh;
     min-height: 200px;
     margin-left: 10vw;
     margin-top: 3vh;
@@ -14,16 +14,16 @@
     margin-bottom: 0;
   }
   
-  .headingE {
+  .headingS {
     position: absolute;
     top: 20%;
     left: 0;
     font-weight: 600;
     font-size: 2rem;
-    color: black;
+    color: white;
   }
   
-  .introE {
+  .introS {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -31,11 +31,11 @@
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-family: "Courier New", Courier, monospace;
-    color: black;
+    color: white;
   }
   
-  .topnavE a {
-    color: black;
+  .topnavS a {
+    color: white;
     margin-right: 4vw;
     margin-top: 3vh;
     float: left;
@@ -45,7 +45,7 @@
     display: block;
   }
   
-  .topnavE a:hover {
+  .topnavS a:hover {
     color: red;
     text-decoration: none;
   }
@@ -81,99 +81,143 @@
     margin-bottom: 5vh;
   }
   
-  #eCover {
+  #sCover {
     float: left;
     object-fit: cover;
     background-repeat: no-repeat;
-    content: url(./images/emw/emwCover.jpg);
+    content: url(./images/spotify/spotify1.svg);
     width: 55vw;
     height: auto;
+    margin-left: 2vw;
+    margin-bottom: 10vh;
   }
   
-  #EGoals {
+  #sGoals {
     float: left;
     width: 40vw;
     left: 0;
     padding-bottom: 10vh;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: black;
+    color: white;
+    margin-left: 2vw;
     font-family: "Courier New", Courier, monospace;
   }
   
-  #eLogo {
+  #sCompetitor {
     float: left;
     object-fit: cover;
     background-repeat: no-repeat;
-    content: url(./images/emw/logos.jpg);
+    content: url(./images/spotify/competitor.svg);
+    width: 75vw;
+    height: auto;
+  }
+  
+  #sResearchKaraoke {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/researchKaraoke.svg);
+    width: 75vw;
+    height: auto;
+  }
+  
+  #sResearchSpotify {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/researchSpotify.svg);
     width: 75vw;
     height: auto;
     margin-bottom: 5vh;
   }
   
-  #eMoodboard {
+  #sArchetype {
     float: left;
     object-fit: cover;
     background-repeat: no-repeat;
-    content: url(./images/emw/moodboard.jpg);
+    content: url(./images/spotify/archetype.svg);
+    width: 75vw;
+    height: auto;
+  }
+  
+  #sUserFlow {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/userFlow.svg);
     width: 75vw;
     height: auto;
     margin-bottom: 5vh;
   }
   
-  #eColor {
+  #sScreen1 {
     float: left;
     object-fit: cover;
     background-repeat: no-repeat;
-    content: url(./images/emw/colorType.jpg);
-    width: 75vw;
-    height: auto;
-    margin-bottom: 5vh;
-  }
-  
-  #eBC {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/emw/bc.jpg);
-    width: 75vw;
-    height: auto;
-    margin-bottom: 5vh;
-  }
-  
-  #eWebsite1 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/emw/website1.jpg);
-    width: 75vw;
-    height: auto;
-    margin-bottom: 5vh;
-  }
-  
-  #eWebsite2 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/emw/website2.jpg);
+    content: url(./images/spotify/spotify2.svg);
     width: 75vw;
     height: auto;
   }
   
-  #eMobile {
+  #sScreen2 {
     float: left;
     object-fit: cover;
     background-repeat: no-repeat;
-    content: url(./images/emw/mobileMockup.jpg);
+    content: url(./images/spotify/spotify3.svg);
     width: 75vw;
     height: auto;
   }
   
+  #sScreen3 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/spotify4.svg);
+    width: 75vw;
+    height: auto;
+  }
+
+  #sScreen4 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/spotify5.svg);
+    width: 75vw;
+    height: auto;
+  }
+
+  #sScreen5 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/spotify6.svg);
+    width: 75vw;
+    height: auto;
+  }
+
+  #sScreen6 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/spotify7.svg);
+    width: 75vw;
+    height: auto;
+  }
+
+  #sScreen7 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/spotify/spotify8.svg);
+    width: 75vw;
+    height: auto;
+  }
   
   /* media query */
   
   @media only screen and (max-width: 1220px) {
-    .divBlockE {
+    .divBlockS {
       width: 80%;
       height: 50vh;
       min-height: 200px;
@@ -181,26 +225,26 @@
       margin-top: 3vh;
     }
   
-    .headingE {
+    .headingS {
       top: 20%;
       font-size: 1.7rem;
     }
   
-    .introE {
+    .introS {
       font-size: 1em;
       line-height: 1.5rem;
     }
   }
   
   @media only screen and (max-width: 893px) {
-    .divBlockE {
+    .divBlockS {
       width: 80%;
       height: 60vh;
       min-height: 200px;
       margin-left: 10vw;
       margin-top: 3vh;
     }
-    .footerNextE a {
+    .footerNextS a {
       margin-right: 8vw;
       width: 10vw;
       height: 8vh;
@@ -208,7 +252,7 @@
   }
   
   @media only screen and (max-width: 605px) {
-    .divBlockE {
+    .divBlockS {
       width: 80%;
       height: 60vh;
       min-height: 200px;
@@ -216,18 +260,18 @@
       margin-top: 3vh;
     }
   
-    .headingE {
+    .headingS {
       top: 15%;
       font-size: 1.5rem;
     }
   
-    .introE {
+    .introS {
       font-size: 0.8em;
       line-height: 1.2rem;
       bottom: 10%;
     }
   
-    #EGoals {
+    #sGoals {
       width: 65vw;
       left: 0;
       padding-bottom: 10vh;
@@ -237,29 +281,29 @@
   }
   
   @media only screen and (max-width: 469px) {
-    .divBlockE {
+    .divBlockS {
       margin-left: 8vw;
     }
-    .headingE {
+    .headingS {
       font-size: 1.2rem;
     }
   
-    .topnavE a {
+    .topnavS a {
       font-size: 0.8em;
     }
   
-    .introE {
+    .introS {
       font-size: 0.8em;
       line-height: 1.2rem;
       bottom: 10%;
     }
   
-    #eCover {
+    #sCover {
       width: 70vw;
       height: auto;
     }
      
-    #EGoals {
+    #sGoals {
       width: 65vw;
       left: 0;
       padding-bottom: 8vh;
@@ -267,13 +311,13 @@
       line-height: 1.2rem;
     }
   
-    .galleryE{
+    .gallerys{
         margin-bottom: 6vh;
     }
   }
   
   @media only screen and (max-width: 378px){
-      .introE {
+      .introS {
           font-size: 0.8em;
           line-height: 1.2rem;
           bottom: 0;
