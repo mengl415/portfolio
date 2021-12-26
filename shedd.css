@@ -148,6 +148,15 @@ a:visited {
     height: auto;
 }
 
+#aPattern{
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/shedd/sheddPattern.png);
+    width: 70vw;
+    height: auto;
+}
+
 #aColor {
   float: left;
   object-fit: cover;
@@ -167,68 +176,112 @@ a:visited {
   margin-bottom: 5vh;
 }
 
-#sScreen1 {
+#aStationery {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify2.svg);
+  content: url(./images/shedd/sheddStationery.jpg);
+  width: 75vw;
+  height: auto;
+  margin-bottom: 5vh;
+}
+
+#aBC {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/shedd/sheddBC.png);
   width: 75vw;
   height: auto;
 }
 
-#sScreen2 {
+#aWeb {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify3.svg);
+  content: url(./images/shedd/sheddWeb.jpg);
   width: 75vw;
   height: auto;
 }
 
-#sScreen3 {
+#aSocial {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify4.svg);
+  content: url(./images/shedd/sheddSocial.jpg);
   width: 75vw;
   height: auto;
+  margin-bottom: 5vh;
 }
 
-#sScreen4 {
+#aBus {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify5.svg);
+  content: url(./images/shedd/sheddBus.jpg);
   width: 75vw;
   height: auto;
+  margin-bottom: 5vh;
 }
 
-#sScreen5 {
+#aTickets {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify6.svg);
+  content: url(./images/shedd/sheddTicket.jpg);
   width: 75vw;
   height: auto;
+  margin-bottom: 5vh;
 }
 
-#sScreen6 {
+#aBrochure {
   float: left;
   object-fit: cover;
   background-repeat: no-repeat;
-  content: url(./images/spotify/spotify7.svg);
+  content: url(./images/shedd/sheddBrochure.jpg);
   width: 75vw;
   height: auto;
+  margin-bottom: 5vh;
 }
 
-#sScreen7 {
-  float: left;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  content: url(./images/spotify/spotify8.svg);
-  width: 75vw;
-  height: auto;
-}
+#aBag {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/shedd/sheddBag.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #aPin {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/shedd/sheddPin.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #aBook {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/shedd/sheddBook.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #aPostcard {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/shedd/sheddPostcard.jpg);
+    width: 75vw;
+    height: auto;
+  }
 
 /* media query */
 
