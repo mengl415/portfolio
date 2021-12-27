@@ -22,7 +22,6 @@
     font-size: 2rem;
     color: #e4e4e4;
     margin-top: 8vh;
-    line-height: 2.6rem;
   }
   
   /* .introP {
@@ -243,7 +242,6 @@
     .headingP {
       top: 20%;
       font-size: 1.7rem;
-      line-height: 2.3rem;
     }
 
     #pGoals{
@@ -298,6 +296,7 @@
   @media only screen and (max-width: 469px) {
     .divBlockP {
       margin-left: 8vw;
+      height: 25vh;
     }
     .headingP {
       font-size: 1.2rem;
@@ -322,7 +321,7 @@
   
   @media only screen and (max-width: 385px){
     .divBlockP {
-        height: 40vh;
+        height: 25vh;
       }
   }
   
