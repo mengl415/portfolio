@@ -1,0 +1,328 @@
+.persona {
+    background-color: black;
+  }
+  
+  .divBlockP {
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 30vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 3vh;
+  }
+  
+  .headingP {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #e4e4e4;
+    margin-top: 8vh;
+    line-height: 2.6rem;
+  }
+  
+  /* .introP {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+    color: #e4e4e4;
+  } */
+  
+  .topnavP a {
+    color: #e4e4e4;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    float: left;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .topnavP a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .galleryP {
+    position: relative;
+    float: left;
+    display: block;
+    width: 85%;
+    margin-left: 10vw;
+    padding-top: 0px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10vh;
+  }
+  
+  .galleryItemP {
+    float: left;
+    margin-bottom: 5vh;
+  }
+  
+  #pCover {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/cover.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #pGoals {
+    float: left;
+    width: 50vw;
+    left: 0;
+    padding-bottom: 10vh;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #p1 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread4.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p2 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread2.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p3 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread3.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p4 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread1.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p5 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread5.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p6 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread6.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p7 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread7.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #p8 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/spread8.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #pSpreads {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/flatSpreads.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #pWeb1 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/webTOC.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #pWeb2 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/web.png);
+    width: 75vw;
+    height: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-bottom: 5vh;
+  }
+
+  #pWeb3 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/persona/webFootnotes.png);
+    width: 75vw;
+    height: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-bottom: 5vh;
+  }
+  
+  /* media query */
+  
+  @media only screen and (max-width: 1220px) {
+    .divBlockP {
+      width: 80%;
+      height: 30vh;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingP {
+      top: 20%;
+      font-size: 1.7rem;
+      line-height: 2.3rem;
+    }
+
+    #pGoals{
+        width: 70vw;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 893px) {
+    .divBlockP {
+      width: 80%;
+      height: 30vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+    #pGoals {
+        float: left;
+        width: 70vw;
+      }
+
+    .footerNextP a {
+      margin-right: 8vw;
+      width: 10vw;
+      height: 8vh;
+    }
+  }
+  
+  @media only screen and (max-width: 605px) {
+    .divBlockP {
+      width: 80%;
+      height: 30vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingP {
+      top: 15%;
+      font-size: 1.5rem;
+    }
+  
+    #pGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 10vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 469px) {
+    .divBlockP {
+      margin-left: 8vw;
+    }
+    .headingP {
+      font-size: 1.2rem;
+    }
+  
+    .topnavP a {
+      font-size: 0.8em;
+    }
+     
+    #pGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 8vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .galleryP{
+        margin-bottom: 6vh;
+    }
+  }
+  
+  @media only screen and (max-width: 385px){
+    .divBlockP {
+        height: 40vh;
+      }
+  }
+  
