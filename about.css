@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  background-color: black;
+}
+
+.topnavAb a {
+  color: #e4e4e4;
+  margin-right: 4vw;
+  margin-top: 3vh;
+  float: left;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.topnavAb a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.divBlockAb {
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 70vh;
+  min-height: 200px;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  float: left;
+  margin-bottom: 5vh;
+}
+
+.headingAb {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #e4e4e4;
+}
+
+.introAb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #e4e4e4;
+}
+
+.abhLine {
+  float: left;
+  height: 2px;
+  width: 75vw;
+  background-color: #e4e4e4;
+  margin-bottom: 12vh;
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+
+.aboutGallery {
+  position: relative;
+  float: left;
+  display: block;
+  width: 85%;
+  margin-left: 8vw;
+  padding-top: 0px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10vh;
+}
+
+.abLinks {
+  float: left;
+  width: 40vw;
+  left: 0;
+  padding-bottom: 5vh;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #e4e4e4;
+  margin-left: 2vw;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 1263px) {
+  .divBlockAb {
+    width: 70%;
+    height: 75vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .headingAb {
+    top: 15%;
+    left: 0;
+    font-size: 2.8rem;
+  }
+
+  .introAb {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .divBlockAb {
+    width: 70%;
+    height: 70vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .headingAb {
+    top: 15%;
+    left: 0;
+    font-size: 2.6rem;
+  }
+
+  .introAb {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .abLinks {
+    float: left;
+    width: 40vw;
+    left: 0;
+    padding-bottom: 5vh;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+  .divBlockAb {
+    width: 70%;
+    height: 80vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .headingAb {
+    top: 15%;
+    left: 0;
+    font-size: 2.6rem;
+  }
+
+  .introAb {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .abLinks {
+    left: 0;
+    padding-bottom: 5vh;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+  }
+}
+
+/* media query */
+
+@media only screen and (max-width: 706px) {
+    .divBlockAb {
+      width: 70%;
+      height: 70vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 3vh;
+    }
+  
+    .headingAb {
+      top: 15%;
+      left: 0;
+      font-size: 2.2rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-left: 2vw;
+      margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 564px) {
+    .divBlockAb {
+      width: 70%;
+      height: 80vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 3vh;
+    }
+  
+    .headingAb {
+      top: 15%;
+      left: 0;
+      font-size: 2rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      width: 40vw;
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-left: 2vw;
+      margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 458px) {
+    .divBlockAb {
+      width: 70%;
+      height: 90vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 3vh;
+    }
+  
+    .headingAb {
+      top: 15%;
+      left: 0;
+      font-size: 2rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      width: 40vw;
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      margin-left: 2vw;
+      margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 362px) {
+    .divBlockAb {
+      width: 70%;
+      height: 90vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 3vh;
+    }
+  
+    .headingAb {
+      top: 10%;
+      left: 0;
+      font-size: 1.8rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      width: 40vw;
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      margin-left: 2vw;
+      margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 327px) {
+    .divBlockAb {
+      width: 70%;
+      height: 100vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 0;
+    }
+  
+    .headingAb {
+      top: 10%;
+      left: 0;
+      font-size: 1.8rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      width: 40vw;
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left: 2vw;
+      margin-bottom: 0;
+    }
+  }
