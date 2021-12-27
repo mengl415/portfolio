@@ -296,6 +296,10 @@ a:visited {
       font-size: 0.8rem;
       line-height: 1.2rem;
     }
+
+    .topnavAb a{
+        font-size: 0.8em;
+    }
   
     .abLinks {
       width: 40vw;
@@ -349,6 +353,41 @@ a:visited {
       width: 70%;
       height: 100vh;
       min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+      float: left;
+      margin-bottom: 0;
+    }
+  
+    .headingAb {
+      top: 10%;
+      left: 0;
+      font-size: 1.8rem;
+    }
+  
+    .introAb {
+      bottom: 0;
+      left: 0;
+      padding-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .abLinks {
+      width: 40vw;
+      left: 0;
+      padding-bottom: 5vh;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left: 2vw;
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (max-width: 278px) {
+    .divBlockAb {
+      width: 70%;
+      height: 120vh;
       margin-left: 10vw;
       margin-top: 3vh;
       float: left;
