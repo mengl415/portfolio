@@ -63,7 +63,7 @@
     text-decoration: none;
   }
   
-  .galleryS {
+  .galleryE {
     position: relative;
     float: left;
     display: block;
@@ -76,7 +76,7 @@
     margin-bottom: 10vh;
   }
   
-  .galleryItemS {
+  .galleryItemE {
     float: left;
     margin-bottom: 5vh;
   }
