@@ -4,6 +4,15 @@ body {
   background-color: black;
 }
 
+#company{
+  color: white;
+}
+
+#company:hover {
+  color: red;
+  text-decoration: none;
+}
+
 .topnav a {
   color: #e4e4e4;
   margin-right: 4vw;
