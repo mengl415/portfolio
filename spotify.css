@@ -30,7 +30,8 @@
     padding-bottom: 20px;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
     color: white;
   }
   
@@ -101,7 +102,8 @@
     line-height: 1.5rem;
     color: white;
     margin-left: 2vw;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
   }
   
   #sCompetitor {

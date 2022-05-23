@@ -30,7 +30,8 @@
   padding-bottom: 20px;
   font-size: 1.2rem;
   line-height: 1.5rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
   color: black;
 }
 
@@ -126,7 +127,8 @@ a:visited {
   font-size: 1rem;
   line-height: 1.5rem;
   color: black;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
 }
 
 #nf1 {
