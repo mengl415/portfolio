@@ -133,6 +133,16 @@ a:visited {
   margin-bottom: 0;
 }
 
+#sketchesA{
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/shedd/sheddLogoSketch.svg);
+  width: 75vw;
+  height: auto;
+  margin-bottom: 10vh;
+}
+
 #aLogos {
   float: left;
   object-fit: cover;

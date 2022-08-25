@@ -1,0 +1,417 @@
+.signage{
+    background-color: white;
+}
+
+.divBlockJ {
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 50vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    float: left;
+    margin-bottom: 0;
+  }
+
+.headingJ {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .introJ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .topnavJ a {
+    color: black;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    float: left;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .topnavJ a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .galleryJ {
+    position: relative;
+    float: left;
+    display: block;
+    width: 85%;
+    margin-left: 8vw;
+    padding-top: 0px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10vh;
+  }
+  
+  .galleryItemJ {
+    float: left;
+    margin-bottom: 5vh;
+  }
+
+  .jGoals {
+    float: left;
+    width: 55vw;
+    left: 0;
+    padding-bottom: 5vh;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: black;
+    margin-left: 2vw;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+  }
+
+  .hLine {
+    float: left;
+    height: 2px;
+    width: 75vw;
+    background-color: black;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  #mockupJ {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/mockup@2x.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #approachJ {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/signageApproach.svg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #database {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/signageSecondary.png);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #caseStudies {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/caseStudies.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #secondaryTakeaways {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/secondaryTakeaways.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #primaryResearch {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/primary.svg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #primaryTakeaways {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/primaryTakeaways.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #insightMapping {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/insightsMapping.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #archetypes {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/userArchetypes.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #contentBuckets {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/contentBuckets.svg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #initialWireframes {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/initialWireframes.svg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #initialScreens {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/initialScreens.svg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #userTesting1 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/userTesting1.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+
+  #userTesting2 {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/userTesting2.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #figmaSnapshot {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/figmaSnapshot.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #finalTemplates {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/finalTemplates.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #playbook {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/playbookSnapshot.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  #finalScreens {
+    float: left;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    content: url(./images/signage/finalScreens.jpg);
+    width: 75vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  /* media query */
+
+@media only screen and (max-width: 1220px) {
+    .divBlockJ {
+      width: 80%;
+      height: 50vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingJ {
+      top: 20%;
+      font-size: 1.7rem;
+    }
+  
+    .introJ {
+      font-size: 1em;
+      line-height: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 893px) {
+    .divBlockJ {
+      width: 80%;
+      height: 60vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+    /* .footerNextA a {
+      margin-right: 8vw;
+      width: 10vw;
+      height: 8vh;
+    } */
+  
+    .jGoals {
+      width: 60vw;
+    }
+  }
+
+  @media only screen and (max-width: 605px) {
+    .divBlockJ {
+      width: 80%;
+      height: 60vh;
+      min-height: 200px;
+      margin-left: 10vw;
+      margin-top: 3vh;
+    }
+  
+    .headingJ {
+      top: 15%;
+      font-size: 1.5rem;
+    }
+  
+    .introJ {
+      font-size: 0.8em;
+      line-height: 1.2rem;
+      bottom: 20%;
+    }
+  
+    .jGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 10vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 469px) {
+    .divBlockJ {
+      margin-left: 8vw;
+    }
+    .headingJ {
+      font-size: 1.2rem;
+    }
+
+    #mockupJ{
+        width: 80vw;
+    }
+
+    #approachJ{
+        margin-bottom: 5vh;
+    }
+  
+    .topnavJ a {
+      font-size: 0.8em;
+    }
+  
+    .introJ {
+      font-size: 0.8em;
+      line-height: 1.2rem;
+      bottom: 10%;
+    }
+  
+    .jGoals {
+      width: 65vw;
+      left: 0;
+      padding-bottom: 8vh;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  
+    .galleryJ {
+      margin-bottom: 6vh;
+    }
+  
+  }
+
+  @media only screen and (max-width: 378px) {
+    .divBlockJ {
+      height: 70vh;
+    }
+
+    #mockupJ{
+        width: 80vw;
+    }
+
+    #approachJ{
+        margin-bottom: 5vh;
+    }
+
+    .introJ {
+      font-size: 0.8em;
+      line-height: 1.2rem;
+      bottom: 0;
+    }
+  
+  }

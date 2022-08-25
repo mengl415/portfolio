@@ -157,6 +157,21 @@ a:visited {
   padding-top: 10px;
 }
 
+#jjd {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/signage/mockup@2x.jpg);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#jjd:hover{
+  opacity: 0.5;
+}
+
 #nf {
   float: right;
   object-fit: cover;
@@ -331,6 +346,12 @@ a:visited {
     padding-top: 10px;
   }
 
+  #jjd {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
   #nf {
     width: 60vw;
     height: 300px;
@@ -447,6 +468,12 @@ a:visited {
     margin-right: 5vw;
     margin-top: 3vh;
     padding-top: 10px;
+  }
+
+  #jjd{
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
   }
 
   #nf {
@@ -569,6 +596,12 @@ a:visited {
     padding-top: 10px;
   }
 
+  #jjd{
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
   #nf {
     width: 80vw;
     height: 300px;
@@ -621,6 +654,12 @@ a:visited {
     margin-top: 3vh;
     float: left;
     margin-bottom: 5vh;
+  }
+
+  #jjd{
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
   }
 
   #nf {
