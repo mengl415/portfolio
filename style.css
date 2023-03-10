@@ -4,7 +4,7 @@ body {
   background-color: black;
 }
 
-#company{
+#company {
   color: white;
 }
 
@@ -128,14 +128,14 @@ a:visited {
   margin-bottom: 5vh;
 }
 
-.galleryName a{
+.galleryName a {
   margin-top: 1vh;
   margin-bottom: -10px;
   color: #e4e4e4;
   font-size: 2rem;
 }
 
-.galleryName a:hover{
+.galleryName a:hover {
   color: red;
   text-decoration: none;
 }
@@ -157,7 +157,7 @@ a:visited {
   padding-top: 10px;
 }
 
-#ml{
+#ml {
   float: right;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@ a:visited {
   opacity: 1;
 }
 
-#ml:hover{
+#ml:hover {
   opacity: 0.5;
 }
 
@@ -183,7 +183,7 @@ a:visited {
   opacity: 1;
 }
 
-#jjd:hover{
+#jjd:hover {
   opacity: 0.5;
 }
 
@@ -361,6 +361,12 @@ a:visited {
     padding-top: 10px;
   }
 
+  #ml {
+    width: 60vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
   #jjd {
     width: 60vw;
     height: 300px;
@@ -404,7 +410,7 @@ a:visited {
   }
 }
 
-@media only screen and (max-width: 481px){
+@media only screen and (max-width: 481px) {
   .topnav a {
     margin-right: 4vw;
     margin-top: 3vh;
@@ -440,7 +446,6 @@ a:visited {
   }
 
   .footer {
-
     width: 70%;
     height: 5vh;
     margin-left: 5vw;
@@ -485,7 +490,13 @@ a:visited {
     padding-top: 10px;
   }
 
-  #jjd{
+  #ml {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #jjd {
     width: 80vw;
     height: 300px;
     margin-bottom: 2vh;
@@ -530,7 +541,7 @@ a:visited {
 
 /* media query */
 
-@media only screen and (max-width: 403px){
+@media only screen and (max-width: 403px) {
   .topnav a {
     margin-right: 4vw;
     margin-top: 3vh;
@@ -566,7 +577,6 @@ a:visited {
   }
 
   .footer {
-
     width: 70%;
     height: 5vh;
     margin-left: 5vw;
@@ -611,7 +621,13 @@ a:visited {
     padding-top: 10px;
   }
 
-  #jjd{
+  #ml {
+    width: 80vw;
+    height: 300px;
+    margin-bottom: 2vh;
+  }
+
+  #jjd {
     width: 80vw;
     height: 300px;
     margin-bottom: 2vh;
@@ -654,7 +670,7 @@ a:visited {
   }
 }
 
-@media only screen and (max-width: 305px){
+@media only screen and (max-width: 305px) {
   .topnav a {
     margin-right: 4vw;
     margin-top: 3vh;
@@ -671,7 +687,13 @@ a:visited {
     margin-bottom: 5vh;
   }
 
-  #jjd{
+  #ml {
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 2vh;
+  }
+
+  #jjd {
     width: 80vw;
     height: 200px;
     margin-bottom: 2vh;

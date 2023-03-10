@@ -396,6 +396,14 @@ a:visited {
     margin-left: 8vw;
     height: 95vh;
   }
+
+  .bigTextML {
+    width: 70vw;
+  }
+
+  .bodyML {
+    width: 70vw;
+  }
 }
 
 @media only screen and (max-width: 468px) {
