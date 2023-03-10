@@ -157,6 +157,21 @@ a:visited {
   padding-top: 10px;
 }
 
+#ml{
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mockupHero.jpg);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#ml:hover{
+  opacity: 0.5;
+}
+
 #jjd {
   float: right;
   object-fit: cover;
