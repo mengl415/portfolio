@@ -120,16 +120,7 @@
     margin-bottom: 5vh;
     margin-top: 5vh;
   }
-  
-  #designSystem {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nfSystems.svg);
-    width: 55vw;
-    height: auto;
-  }
-  
+    
   #processML {
     float: left;
     object-fit: cover;
@@ -248,55 +239,11 @@
     height: auto;
   }
   
-  #nf6 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nf6.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #nf7 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nf7.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #nf8 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nf8.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #nf9 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nf9.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #nf10 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/NextFit/nf10.svg);
-    width: 75vw;
-    height: auto;
-  }
   
   /* media query */
   
   @media only screen and (max-width: 1220px) {
-    .divBlockNF {
+    .divBlockML {
       width: 80%;
       height: 50vh;
       min-height: 200px;
@@ -304,19 +251,19 @@
       margin-top: 3vh;
     }
   
-    .headingNF {
+    .headingML {
       top: 20%;
       font-size: 1.7rem;
     }
   
-    .introNF {
+    .introML {
       font-size: 1em;
       line-height: 1.5rem;
     }
   }
   
   @media only screen and (max-width: 893px) {
-    .divBlockNF {
+    .divBlockML {
       width: 80%;
       height: 60vh;
       min-height: 200px;
@@ -331,7 +278,7 @@
   }
   
   @media only screen and (max-width: 605px) {
-    .divBlockNF {
+    .divBlockML {
       width: 80%;
       height: 60vh;
       min-height: 200px;
@@ -339,18 +286,18 @@
       margin-top: 3vh;
     }
   
-    .headingNF {
+    .headingML {
       top: 15%;
       font-size: 1.5rem;
     }
   
-    .introNF {
+    .introML {
       font-size: 0.8em;
       line-height: 1.2rem;
       bottom: 10%;
     }
   
-    #nfGoals {
+    #mlGoals {
       width: 65vw;
       left: 0;
       padding-bottom: 10vh;
@@ -360,48 +307,56 @@
   }
   
   @media only screen and (max-width: 469px) {
-    .divBlockNF {
+    .divBlockML {
       margin-left: 8vw;
     }
-    .headingNF {
+    .headingML {
       font-size: 1.2rem;
     }
   
-    .topnavNF a {
+    .topnavML a {
       font-size: 0.8em;
     }
   
-    .introNF {
+    .introML {
       font-size: 0.8em;
       line-height: 1.2rem;
       bottom: 10%;
     }
   
-    #designSystem {
+    #mlAffinityMap {
       width: 70vw;
       height: auto;
     }
     
-    #processNF {
+    #mlInsights {
       width: 70vw;
       height: auto;
     }
   
-    #nfGoals {
+    #mlArchetype1 {
       width: 65vw;
       left: 0;
       padding-bottom: 8vh;
       font-size: 0.8rem;
       line-height: 1.2rem;
     }
+
+    #mlArchetype2 {
+        width: 65vw;
+        left: 0;
+        padding-bottom: 8vh;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+      }
   
-    .galleryNF{
+    .galleryML{
         margin-bottom: 6vh;
     }
   }
   
   @media only screen and (max-width: 378px){
-      .introNF {
+      .introML {
           font-size: 0.8em;
           line-height: 1.2rem;
           bottom: 0;
