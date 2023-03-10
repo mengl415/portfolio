@@ -1,81 +1,81 @@
 .mindlog {
-    background-color: white;
-  }
-  
-  .divBlockML {
-    position: relative;
-    display: flex;
-    width: 70%;
-    height: 50vh;
-    min-height: 200px;
-    margin-left: 10vw;
-    margin-top: 3vh;
-    float: left;
-    margin-bottom: 0;
-  }
+  background-color: white;
+}
 
-  #heroML{
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlHero.svg);
-    width: 70vw;
-    height: auto;
-    padding-bottom: 5vh;
-  }
- 
+.divBlockML {
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 50vh;
+  min-height: 200px;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  float: left;
+  margin-bottom: 0;
+}
 
-  .headingML {
-    position: absolute;
-    top: 30%;
-    left: 0;
-    font-weight: 600;
-    font-size: 2rem;
-    color: black;
-  }
-  
-  .introML {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding-bottom: 20px;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-    color: black;
-  }
-  
-  .topnavML a {
-    color: black;
-    margin-right: 4vw;
-    margin-top: 3vh;
-    float: left;
-    padding: 0px -40px;
-    text-decoration: none;
-    font-size: 1em;
-    display: block;
-  }
-  
-  .topnavML a:hover {
-    color: red;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: red;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  /* .footerNextNF a {
+#heroML {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlHero.svg);
+  width: 70vw;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+.headingML {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  color: black;
+}
+
+.introML {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.topnavML a {
+  color: black;
+  margin-right: 4vw;
+  margin-top: 3vh;
+  float: left;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.topnavML a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* .footerNextNF a {
     position: fixed;
     display: flex;
     float: right;
@@ -93,83 +93,285 @@
     color: red;
     text-decoration: none;
   } */
-  
-  .galleryML {
-    position: relative;
-    float: left;
-    display: block;
-    width: 85%;
-    margin-left: 8vw;
-    padding-top: 10px;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    margin-bottom: 10vh;
+
+.galleryML {
+  position: relative;
+  float: left;
+  display: block;
+  width: 85%;
+  margin-left: 8vw;
+  padding-top: 10px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10vh;
+}
+
+.galleryItemML {
+  float: left;
+  margin-bottom: 5vh;
+}
+
+.hLine {
+  float: left;
+  height: 2px;
+  width: 75vw;
+  background-color: #e3e3e3;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+#processML {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlDesignProcess.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlGoals {
+  float: left;
+  width: 60vw;
+  left: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+.subheadML {
+  float: left;
+  width: 60vw;
+  left: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: gray;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+}
+
+.bigTextML {
+  float: left;
+  width: 60vw;
+  left: 0;
+  padding-top: 0vh;
+  padding-bottom: 3vh;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+}
+
+.bodyML {
+  float: left;
+  width: 60vw;
+  left: 0;
+  padding-top: 0vh;
+  padding-bottom: 5vh;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+#mlAffinityMap {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlAffinityMap.svg);
+  width: 75vw;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+#mlInsights {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlOpportunities.svg);
+  width: 75vw;
+  height: auto;
+  left: 0;
+}
+
+#mlArchetype1 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlArchetype1.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlArchetype2 {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlArchetype2.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlMVP {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlMVPs.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlFinal {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/Mockup5Screens.jpg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlPointEdit {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlPointEdit.svg);
+  width: 75vw;
+  height: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#mlSuggested {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlSuggested.svg);
+  width: 75vw;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+#mlAnalysis {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlAnalysis.svg);
+  width: 75vw;
+  height: auto;
+}
+
+#mlDesignSystem {
+  float: left;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/ml/mlDesignSystem.svg);
+  width: 75vw;
+  height: auto;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1220px) {
+  .divBlockML {
+    width: 80%;
+    height: 55vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
   }
-  
-  .galleryItemML {
-    float: left;
-    margin-bottom: 5vh;
+  .introML {
+    font-size: 1em;
+    line-height: 1.5rem;
   }
 
-  .hLine {
-    float: left;
-    height: 2px;
-    width: 75vw;
-    background-color:#E3E3E3;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+  .headingML {
+    top: 10%;
   }
-    
-  #processML {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlDesignProcess.svg);
-    width: 75vw;
-    height: auto;
+}
+
+@media only screen and (max-width: 893px) {
+  .divBlockML {
+    width: 80%;
+    height: 70vh;
+    min-height: 200px;
+    margin-left: 10vw;
   }
-  
+
+  .headingML {
+    top: 15%;
+  }
+
+  .footerNextNF a {
+    margin-right: 8vw;
+    width: 10vw;
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .divBlockML {
+    width: 80%;
+    height: 80vh;
+    min-height: 200px;
+    margin-left: 10vw;
+  }
+
+  .headingML {
+    top: 10%;
+  }
+
+  .introML {
+    bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .divBlockML {
+    width: 80%;
+    height: 90vh;
+    min-height: 200px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+
+  .headingML {
+    top: 10%;
+  }
+
+  .introML {
+    bottom: 5%;
+  }
+
   #mlGoals {
-    float: left;
-    width: 60vw;
+    width: 65vw;
     left: 0;
-    padding-top: 5vh;
     padding-bottom: 5vh;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: black;
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
   }
 
-  .subheadML{
+  .bigTextML {
     float: left;
-    width: 60vw;
-    left: 0;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: gray;
-    font-family: "Karla", sans-serif;
-    font-weight: 600;
-  }
-
-  .bigTextML{
-    float: left;
-    width: 60vw;
+    width: 70vw;
     left: 0;
     padding-top: 0vh;
     padding-bottom: 3vh;
-    font-size: 2.6rem;
-    line-height: 3rem;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
     color: black;
     font-family: "Karla", sans-serif;
     font-weight: 600;
   }
 
-  .bodyML{
+  .bodyML {
     float: left;
     width: 60vw;
     left: 0;
@@ -182,184 +384,77 @@
     font-weight: 400;
   }
 
-  #mlAffinityMap{
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlAffinityMap.svg);
-    width: 75vw;
+  #heroML {
+    width: 80vw;
     height: auto;
     padding-bottom: 5vh;
   }
+}
 
+@media only screen and (max-width: 520px) {
+  .divBlockML {
+    margin-left: 8vw;
+    height: 95vh;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .divBlockML {
+    margin-left: 8vw;
+    height: 105vh;
+  }
+  .topnavML a {
+    font-size: 0.8em;
+    top: 15%;
+  }
+
+  .introML {
+    font-size: 1em;
+    line-height: 1.5rem;
+    bottom: 5%;
+  }
+
+  #mlAffinityMap {
+    width: 70vw;
+    height: auto;
+  }
 
   #mlInsights {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlOpportunities.svg);
-    width: 75vw;
-    height: auto;
-    left: 0;
-  }
-  
-  #mlArchetype1 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlArchetype1.svg);
-    width: 75vw;
+    width: 70vw;
     height: auto;
   }
-  
-  #mlArchetype2 {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlArchetype2.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #mlMVP {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/mlMVPs.svg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  #mlFinal {
-    float: left;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    content: url(./images/ml/Mockup5Screens.jpg);
-    width: 75vw;
-    height: auto;
-  }
-  
-  
-  /* media query */
-  
-  @media only screen and (max-width: 1220px) {
-    .divBlockML {
-      width: 80%;
-      height: 50vh;
-      min-height: 200px;
-      margin-left: 10vw;
-      margin-top: 3vh;
-    }
-  
-    .headingML {
-      top: 20%;
-      font-size: 1.7rem;
-    }
-  
-    .introML {
-      font-size: 1em;
-      line-height: 1.5rem;
-    }
-  }
-  
-  @media only screen and (max-width: 893px) {
-    .divBlockML {
-      width: 80%;
-      height: 60vh;
-      min-height: 200px;
-      margin-left: 10vw;
-      margin-top: 3vh;
-    }
-    .footerNextNF a {
-      margin-right: 8vw;
-      width: 10vw;
-      height: 8vh;
-    }
-  }
-  
-  @media only screen and (max-width: 605px) {
-    .divBlockML {
-      width: 80%;
-      height: 60vh;
-      min-height: 200px;
-      margin-left: 10vw;
-      margin-top: 3vh;
-    }
-  
-    .headingML {
-      top: 15%;
-      font-size: 1.5rem;
-    }
-  
-    .introML {
-      font-size: 0.8em;
-      line-height: 1.2rem;
-      bottom: 10%;
-    }
-  
-    #mlGoals {
-      width: 65vw;
-      left: 0;
-      padding-bottom: 10vh;
-      font-size: 0.8rem;
-      line-height: 1.2rem;
-    }
-  }
-  
-  @media only screen and (max-width: 469px) {
-    .divBlockML {
-      margin-left: 8vw;
-    }
-    .headingML {
-      font-size: 1.2rem;
-    }
-  
-    .topnavML a {
-      font-size: 0.8em;
-    }
-  
-    .introML {
-      font-size: 0.8em;
-      line-height: 1.2rem;
-      bottom: 10%;
-    }
-  
-    #mlAffinityMap {
-      width: 70vw;
-      height: auto;
-    }
-    
-    #mlInsights {
-      width: 70vw;
-      height: auto;
-    }
-  
-    #mlArchetype1 {
-      width: 65vw;
-      left: 0;
-      padding-bottom: 8vh;
-      font-size: 0.8rem;
-      line-height: 1.2rem;
-    }
 
-    #mlArchetype2 {
-        width: 65vw;
-        left: 0;
-        padding-bottom: 8vh;
-        font-size: 0.8rem;
-        line-height: 1.2rem;
-      }
-  
-    .galleryML{
-        margin-bottom: 6vh;
-    }
+  #mlArchetype1 {
+    width: 65vw;
+    left: 0;
+    padding-bottom: 8vh;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
   }
-  
-  @media only screen and (max-width: 378px){
-      .introML {
-          font-size: 0.8em;
-          line-height: 1.2rem;
-          bottom: 0;
-        }
+
+  #mlArchetype2 {
+    width: 65vw;
+    left: 0;
+    padding-bottom: 8vh;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
   }
-  
+
+  .galleryML {
+    margin-bottom: 6vh;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  .divBlockML {
+    margin-left: 8vw;
+    height: 115vh;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .divBlockML {
+    margin-left: 8vw;
+    height: 120vh;
+  }
+}
