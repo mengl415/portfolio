@@ -76,6 +76,10 @@ body {
   text-decoration: none;
 }
 
+.navContainer {
+  position: fixed;
+}
+
 .topnav a {
   color: #e4e4e4;
   margin-right: 4vw;
