@@ -310,12 +310,6 @@ a:visited {
   .headingML {
     top: 15%;
   } */
-
-  .footerNextNF a {
-    margin-right: 8vw;
-    width: 10vw;
-    height: 8vh;
-  }
 }
 
 /* @media only screen and (max-width: 800px) {
