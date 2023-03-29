@@ -356,50 +356,50 @@ a:visited {
   }
 
   .gallery {
-    width: auto;
+    width: 80vw;
     margin-right: 10vw;
     margin-left: 10vw;
     align-self: center;
   }
 
   #ml {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #jjd {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #nf {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #emw {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #spotify {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #shedd {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #persona {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 
   #kvm {
-    width: 100%;
-    height: 350px;
+    width: 80vw;
+    height: 250px;
   }
 }
 
