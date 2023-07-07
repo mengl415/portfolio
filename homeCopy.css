@@ -18,6 +18,19 @@ body {
   padding-right: 12vw;
 }
 
+.rowThin {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 12vw;
+  padding-right: 12vw;
+}
+
+rowThin::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -235,6 +248,21 @@ a:visited {
 }
 
 #ml:hover {
+  opacity: 0.5;
+}
+
+#abg {
+  float: right;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  content: url(./images/abg/abgLogoCover.svg);
+  width: 55vw;
+  height: 500px;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+#abg:hover {
   opacity: 0.5;
 }
 

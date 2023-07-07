@@ -97,7 +97,7 @@ a:visited {
   float: left;
   width: 60vw;
   left: 0;
-  padding-bottom: 10vh;
+  padding-bottom: 3vh;
   font-size: 1rem;
   line-height: 1.5rem;
   color: white;
@@ -125,7 +125,7 @@ a:visited {
   content: url(./images/spotify/competitor.svg);
   width: 75vw;
   height: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 0vh;
 }
 
 #sResearchKaraoke {
@@ -231,7 +231,7 @@ a:visited {
 
 /* media query */
 
-@media only screen and (max-width: 1220px) {
+/* @media only screen and (max-width: 1220px) {
   .divBlockS {
     width: 80%;
     height: 50vh;
@@ -249,9 +249,9 @@ a:visited {
     font-size: 1em;
     line-height: 1.5rem;
   }
-}
+} */
 
-@media only screen and (max-width: 893px) {
+/* @media only screen and (max-width: 893px) {
   .divBlockS {
     width: 80%;
     height: 60vh;
@@ -264,8 +264,25 @@ a:visited {
     width: 10vw;
     height: 8vh;
   }
-}
+} */
 
+@media only screen and (max-width: 768px) {
+  .galleryS {
+    width: auto;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    align-self: center;
+  }
+
+  .introS {
+    width: 100%;
+  }
+
+  #sGoals {
+    width: 100%;
+  }
+}
+/* 
 @media only screen and (max-width: 605px) {
   .divBlockS {
     width: 80%;
@@ -293,24 +310,22 @@ a:visited {
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
-}
+} */
 
-@media only screen and (max-width: 469px) {
-  .divBlockS {
-    margin-left: 8vw;
-  }
+@media only screen and (max-width: 480px) {
   .headingS {
-    font-size: 1.2rem;
-  }
-
-  .topnavS a {
-    font-size: 0.8em;
+    font-size: 2.6rem;
+    line-height: 3rem;
   }
 
   .introS {
-    font-size: 0.8em;
-    line-height: 1.2rem;
-    bottom: 10%;
+    font-size: 1em;
+    line-height: 1.5rem;
+  }
+
+  #sGoals {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   #sCover {
@@ -318,23 +333,15 @@ a:visited {
     height: auto;
   }
 
-  #sGoals {
-    width: 65vw;
-    left: 0;
-    padding-bottom: 8vh;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
-
   .galleryS {
     margin-bottom: 6vh;
   }
 }
 
-@media only screen and (max-width: 378px) {
+/* @media only screen and (max-width: 378px) {
   .introS {
     font-size: 0.8em;
     line-height: 1.2rem;
     bottom: 0;
   }
-}
+} */
