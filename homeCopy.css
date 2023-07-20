@@ -395,6 +395,11 @@ a:visited {
     height: 250px;
   }
 
+  #abg {
+    width: 80vw;
+    height: 250px;
+  }
+
   #jjd {
     width: 80vw;
     height: 250px;
@@ -464,6 +469,11 @@ a:visited {
   }
 
   #jjd {
+    width: 100%;
+    height: 250px;
+  }
+
+  #abg {
     width: 100%;
     height: 250px;
   }
