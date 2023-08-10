@@ -208,6 +208,7 @@ nav :last-child {
     font-weight: 800;
     letter-spacing: var(--letterSpacing);
     border: 1px solid var(--accentColor);
+    padding-top: 5px;
 }
 #play-btn:hover,
 #play-btn:active {
