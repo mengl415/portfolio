@@ -1,0 +1,270 @@
+/* fonts */
+@font-face {
+    font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-RegularItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-ExtraBold.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: Canela;
+    src: url(../assets/fonts/Canela/CANELA-BOLD.OTF);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Canela;
+    src: url(../assets/fonts/Canela/CANELA-BOLDITALIC.OTF);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: PP Neue Machina;
+    src: url(../assets/fonts/PPNeueMachina-InktrapUltrabold.otf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* text styles */
+h1 {
+    color: var(--textColor);
+    font-family: var(--sansSerifFont);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: var(--letterSpacing);
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    color: var(--textColor);
+    font-family: var(--sansSerifFont);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%; /* 60px */
+    letter-spacing: var(--letterSpacing);
+    text-transform: capitalize;
+}
+h3 {
+    color: var(--textColor);
+    font-family: var(--sansSerifFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 30px */
+    letter-spacing: var(--letterSpacing);
+    text-transform: capitalize;
+}
+p {
+    color: var(--textColor);
+    font-family: var(--sansSerifFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: var(--letterSpacing);
+}
+a:link,
+a:visited {
+    color: var(--textColor);
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: var(--accentColor);
+}
+
+.serif {
+    font-family: var(--serifFont);
+    font-weight: 700;
+    line-height: 96px;
+}
+
+/* misc element styles */
+figure {
+    max-width: 630px;
+    max-height: 440px;
+}
+img {
+    width: 100%;
+}
+button,
+.nav-btn {
+    background-color: var(--whiteColor);
+    color: var(--textColor);
+    padding: 3px 9px;
+    font-family: var(--sansSerifFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 1px solid var(--blackColor);
+}
+button a:link,
+button a:visited,
+.nav-btn:link,
+.nav-btn:visited {
+    color: var(--textColor);
+}
+button:hover,
+button:active,
+.nav-btn:hover,
+.nav-btn:active {
+    /* text-decoration: none; */
+    background-color: var(--textColor);
+    color: var(--whiteColor);
+}
+
+/* div section styles */
+html {
+    background-image: url(../assets/gradientBG.png);
+    background-attachment: fixed;
+}
+header {
+    top: 0px;
+    margin: var(--navMarginY) var(--marginX) 0px var(--marginX);
+}
+header,
+footer {
+    /* background-color: red; */
+    position: fixed;
+    width: calc(100% - var(--marginX) * 2);
+    z-index: 3;
+}
+nav {
+    display: flex;
+}
+nav :last-child {
+    margin-left: auto;
+}
+#play-btn {
+    color: var(--accentColor);
+    font-family: var(--playFont);
+    font-weight: 800;
+    letter-spacing: var(--letterSpacing);
+    border: 1px solid var(--accentColor);
+}
+#play-btn:hover,
+#play-btn:active {
+    background-color: var(--accentColor);
+    color: var(--whiteColor);
+}
+footer {
+    bottom: 0px;
+    margin: 0px var(--marginX) var(--navMarginY) var(--marginX);
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-btn:hover,
+#menu-btn:active,
+#work-btn:hover,
+#work-btn:active {
+    cursor: pointer;
+}
+#menu-container {
+    background-image: url(../assets/gradientBG.png);
+    position: fixed;
+    display: grid;
+    grid: 1fr/1fr 1fr;
+    top: -100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+#main-menu {
+    margin: 100px var(--marginX);
+    padding: 0px;
+}
+#main-menu li,
+#work-list li {
+    font-family: var(--sansSerifFont);
+    font-style: normal;
+    letter-spacing: var(--letterSpacing);
+    list-style-type: none;
+}
+#main-menu li {
+    /* background-color: red; */
+    font-size: 116px;
+    font-weight: 800;
+    line-height: 140px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+#main-menu li:hover {
+    font-family: var(--serifFont);
+    font-weight: 700;
+    font-style: italic;
+}
+#work-list {
+    margin-top: 40vh;
+    visibility: hidden;
+}
+#work-list li {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+    text-transform: capitalize;
+}
+
+main {
+    margin: var(--mainMarginY) var(--marginX);
+    padding: 0;
+    display: grid;
+    grid: 1fr/ 0.35fr 0.1fr 0.55fr;
+    outline: 1px solid aqua;
+}
+section {
+    padding: 0;
+}
+
+#home h1 {
+    margin: 0;
+}
+#intro {
+    outline: 1px solid orange;
+    height: 100%;
+}
+#intro-contents {
+    outline: 1px solid blueviolet;
+    top: var(--mainMarginY);
+    position: sticky;
+}
+#work {
+    outline: 1px solid greenyellow;
+}
+
+/* variables, basically */
+:root {
+    --serifFont: Canela;
+    --sansSerifFont: PP Mori;
+    --playFont: PP Neue Machina;
+    --letterSpacing: -0.446px;
+    --whiteColor: white;
+    --blackColor: black;
+    --textColor: black;
+    --accentColor: #4f2df2;
+    --marginX: 100px;
+    --navMarginY: 50px;
+    --mainMarginY: 112px;
+}
