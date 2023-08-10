@@ -113,6 +113,13 @@ a:active {
     line-height: 96px;
 }
 
+#about h1 {
+    font-size: 64px;
+    line-height: 110%; /* 70.4px */
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
 .project-page h1 {
     line-height: 115%; /* 110.4px */
 }
@@ -234,40 +241,50 @@ footer div {
     background-image: url(../assets/gradientBG.png);
     position: fixed;
     display: grid;
-    grid: 1fr/1fr 1fr;
+    grid: 0.5fr 0.5fr/0.5fr 0.5fr;
+    grid-auto-flow: column;
     top: -100vh;
     width: 100vw;
     height: 100vh;
     z-index: 2;
 }
-#main-menu {
-    margin: 100px var(--marginX);
-    padding: 0px;
+#main-menu-1 {
+    margin: var(--marginX) 0px 0px var(--marginX);
 }
-#main-menu li,
+#main-menu-2 {
+    margin: 0px 0px var(--marginX) var(--marginX);
+    border-top: 1px solid transparent;
+}
+#main-menu-1 li,
+#main-menu-2 li,
 #work-list li {
     font-family: var(--sansSerifFont);
     font-style: normal;
     letter-spacing: var(--letterSpacing);
     list-style-type: none;
 }
-#main-menu li {
-    /* background-color: red; */
+#main-menu-1 li,
+#main-menu-2 li {
     font-size: 116px;
     font-weight: 800;
     line-height: 140px;
     text-transform: uppercase;
     width: fit-content;
 }
-#main-menu li:hover {
+#main-menu-1 li:hover,
+#main-menu-2 li:hover {
     color: var(--accentColor);
     font-family: var(--serifFont);
     font-weight: 700;
     font-style: italic;
 }
 #work-list {
-    margin-top: 40vh;
+    grid-row: 2;
+    grid-column: 2;
+    border-top: 1px solid var(--textColor);
+    margin: 0px var(--marginX) 100px 0px;
     visibility: hidden;
+    width: fit-content;
 }
 #work-list li {
     font-size: 32px;
@@ -300,14 +317,14 @@ main {
 #intro-contents h1 span {
     line-height: normal;
 }
-#work-gallery {
-    /* outline: 1px solid greenyellow; */
-}
 #work-gallery h1 {
     margin-top: 20px;
 }
 #work-gallery article {
     margin-bottom: var(--bottomMargin);
+}
+#work-gallery article:last-child {
+    margin-bottom: 0px;
 }
 .gallery-img {
     max-width: 715px;
@@ -317,13 +334,60 @@ main {
     overflow: hidden;
 }
 
+/* about page stuff */
+#about {
+    overflow: hidden;
+}
+#about main {
+    display: grid;
+    grid: 1fr/ 1fr 1fr;
+}
+#about-text {
+    padding: 30px 30px 30px 0;
+    border-right: 1px solid var(--textColor);
+}
+#resume-btn a:link,
+#resume-btn a:visited {
+    color: var(--accentColor);
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: var(--whiteColor);
+    border-radius: 50px;
+    border: 2px solid var(--accentColor);
+    display: inline;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+#resume-btn a:hover,
+#resume-btn a:active {
+    color: var(--whiteColor);
+    background-color: var(--accentColor);
+}
+#profile-pic-container {
+    margin: 30px 0px 0px 40px;
+}
+#profile-pic {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
 /* project page stuff */
 #project-hero {
     margin-bottom: var(--bottomMargin);
 }
 #project-hero figure {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: var(--marginX);
+}
+#project-hero figure img {
+    max-width: 1240px;
+    max-height: 557px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
 }
 #project-description {
     display: grid;
@@ -335,9 +399,6 @@ main {
 #project-container {
     display: grid;
     grid: 1fr/0.25fr 0.75fr;
-}
-#toc-container {
-    /* background-color: #4f2df2; */
 }
 #toc {
     position: sticky;
@@ -381,6 +442,6 @@ main {
     --accentColor: #4f2df2;
     --marginX: 100px;
     --navMarginY: 50px;
-    --mainMarginY: 112px;
+    --mainMarginY: 110px;
     --bottomMargin: 110px;
 }
