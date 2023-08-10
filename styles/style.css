@@ -232,7 +232,7 @@ main {
     padding: 0;
     display: grid;
     grid: 1fr/ 0.35fr 0.1fr 0.55fr;
-    outline: 1px solid aqua;
+    /* outline: 1px solid aqua; */
 }
 section {
     padding: 0;
@@ -242,16 +242,16 @@ section {
     margin: 0;
 }
 #intro {
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
     height: 100%;
 }
 #intro-contents {
-    outline: 1px solid blueviolet;
+    /* outline: 1px solid blueviolet; */
     top: var(--mainMarginY);
     position: sticky;
 }
 #work {
-    outline: 1px solid greenyellow;
+    /* outline: 1px solid greenyellow; */
 }
 
 /* variables, basically */
