@@ -13,6 +13,18 @@
 }
 @font-face {
     font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-SemiBold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-SemiBoldItalic.otf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: PP Mori;
     src: url(../assets/fonts/Mori/PPMori-ExtraBold.otf);
     font-weight: 800;
     font-style: normal;
@@ -36,6 +48,13 @@
     font-style: italic;
 }
 
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* text styles */
 h1 {
     color: var(--textColor);
@@ -46,8 +65,6 @@ h1 {
     line-height: normal;
     letter-spacing: var(--letterSpacing);
     text-transform: capitalize;
-    margin: 0px;
-    padding: 0px;
 }
 h2 {
     color: var(--textColor);
@@ -58,6 +75,7 @@ h2 {
     line-height: 125%; /* 60px */
     letter-spacing: var(--letterSpacing);
     text-transform: capitalize;
+    margin: 5px 0px;
 }
 h3 {
     color: var(--textColor);
@@ -77,6 +95,7 @@ p {
     font-weight: 400;
     line-height: 125%; /* 22.5px */
     letter-spacing: var(--letterSpacing);
+    margin: 1em 0;
 }
 a:link,
 a:visited {
@@ -94,11 +113,30 @@ a:active {
     line-height: 96px;
 }
 
-/* misc element styles */
-figure {
-    max-width: 630px;
-    max-height: 440px;
+.project-page h1 {
+    line-height: 115%; /* 110.4px */
 }
+.project-page h2 {
+    font-size: 40px;
+    line-height: 120%; /* 48px */
+    text-transform: none;
+}
+.project-page h3 {
+    line-height: 250%; /* 60px */
+}
+.project-page h4 {
+    color: var(--accentColor);
+    font-family: PP Mori;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 18px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+/* misc element styles */
 img {
     width: 100%;
 }
@@ -132,11 +170,20 @@ button:active,
     background-color: var(--textColor);
     color: var(--whiteColor);
 }
+hr {
+    border: 0.5px solid var(--textColor);
+    margin: 15px 0px;
+}
 
 /* div section styles */
-html {
+body {
     background-image: url(../assets/gradientBG.png);
     background-attachment: fixed;
+}
+.project-page {
+    background-image: none;
+    background-color: var(--whiteColor);
+    /* background-color: cornflowerblue; */
 }
 header {
     top: 0px;
@@ -212,6 +259,7 @@ footer div {
     width: fit-content;
 }
 #main-menu li:hover {
+    color: var(--accentColor);
     font-family: var(--serifFont);
     font-weight: 700;
     font-style: italic;
@@ -229,18 +277,13 @@ footer div {
 
 main {
     margin: var(--mainMarginY) var(--marginX);
-    padding: 0;
+}
+#home main {
     display: grid;
     grid: 1fr/ 0.35fr 0.1fr 0.55fr;
     /* outline: 1px solid aqua; */
 }
-section {
-    padding: 0;
-}
 
-#home h1 {
-    margin: 0;
-}
 #intro {
     /* outline: 1px solid orange; */
     height: 100%;
@@ -250,8 +293,79 @@ section {
     top: var(--mainMarginY);
     position: sticky;
 }
-#work {
+#intro-contents h1 {
+    line-height: 96px;
+}
+#intro-contents h1 span {
+    line-height: normal;
+}
+#work-gallery {
     /* outline: 1px solid greenyellow; */
+}
+#work-gallery h1 {
+    margin-top: 20px;
+}
+#work-gallery article {
+    margin-bottom: var(--bottomMargin);
+}
+.gallery-img {
+    max-width: 715px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+}
+
+/* project page stuff */
+#project-hero {
+    margin-bottom: var(--bottomMargin);
+}
+#project-hero figure {
+    width: 100%;
+    margin-bottom: 100px;
+}
+#project-description {
+    display: grid;
+    grid: 1fr/ 0.6fr 0.4fr;
+}
+#project-specs b {
+    font-weight: 600;
+}
+#project-container {
+    display: grid;
+    grid: 1fr/0.25fr 0.75fr;
+}
+#toc-container {
+    /* background-color: #4f2df2; */
+}
+#toc {
+    position: sticky;
+    top: var(--mainMarginY);
+    border-right: 1px solid var(--textColor);
+}
+#toc li {
+    list-style-type: none;
+    font-family: var(--sansSerifFont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 250%; /* 50px */
+    letter-spacing: var(--letterSpacing);
+    text-transform: uppercase;
+}
+#project-contents article {
+    margin-left: 20px;
+    margin-bottom: var(--bottomMargin);
+}
+#project-contents ol li {
+    color: var(--textColor);
+    font-family: var(--sansSerifFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: var(--letterSpacing);
+    margin: 1em;
 }
 
 /* variables, basically */
@@ -267,4 +381,5 @@ section {
     --marginX: 100px;
     --navMarginY: 50px;
     --mainMarginY: 112px;
+    --bottomMargin: 110px;
 }

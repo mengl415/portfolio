@@ -8,7 +8,6 @@
             href="./assets/Favicon.png"
             type="image/x-icon"
         />
-        <link rel="stylesheet" href="./styles/reset.css" />
         <link rel="stylesheet" href="./styles/style.css" />
         <meta name="description" content="Welcome!" />
         <meta name="author" content="Lily Meng" />
@@ -52,19 +51,22 @@
                 </li>
             </menu>
             <menu id="work-list">
-                <li>MindLog</li>
-                <li>juicy couture</li>
-                <li>J&J digital dignage</li>
-                <li>kurt vonnegut museum</li>
-                <li>shedd aquarium</li>
-                <li>spotify karaoke</li>
+                <li><a href="./mindlog.html">MindLog</a></li>
+                <li><a href="./juicycouture.html">juicy couture</a></li>
+                <li><a href="./jj-signage.html">J&J digital signage</a></li>
+                <li>
+                    <a href="./kurt-vonnegut-museum.html"
+                        >kurt vonnegut museum</a
+                    >
+                </li>
+                <li><a href="./shedd.html">shedd aquarium</a></li>
             </menu>
         </div>
         <main>
             <section id="intro">
                 <div id="intro-contents">
                     <h1>
-                        Hi, I'm
+                        <span>Hi, I'm</span>
                         <br />
                         <span class="serif">Lily</span>
                         <br />
@@ -83,35 +85,82 @@
                 </div>
             </section>
             <section id="dividing-line"></section>
-            <section id="work">
+            <section id="work-gallery">
                 <h1 class="serif">work</h1>
                 <article>
                     <a href="./mindlog.html">
                         <figure>
-                            <img src="./assets/MindLog/mockupHeroWhite.png" />
+                            <img
+                                class="gallery-img"
+                                src="./assets/MindLog/mockupHeroWhite.png"
+                            />
                         </figure>
                     </a>
-                    <a href="./mindlog.html">
-                        <h2>MindLog</h2>
-                    </a>
+                    <h2><a href="./mindlog.html">MindLog</a></h2>
                     <h3>Creative Direction, UI/UX Design</h3>
+                    <hr />
                 </article>
-                <hr />
                 <article>
                     <a href="./juicycouture.html">
                         <figure>
                             <img
+                                class="gallery-img"
                                 src="./assets/JuicyCouture/juicySocialMockup.png"
                             />
                         </figure>
                     </a>
-                    <a href="./juicycouture.html">
-                        <h2>Juicy Couture Y2K Campaign</h2>
-                    </a>
+                    <h2><a href="./juicycouture.html">Juicy Couture</a></h2>
                     <h3>
                         Brand Identity, Graphic Design, Social Media & Email
                         Design
                     </h3>
+                    <hr />
+                </article>
+                <article>
+                    <a href="./jj-signage.html">
+                        <figure>
+                            <img
+                                class="gallery-img"
+                                src="./assets/JJ/jjHeroMockup.jpg"
+                            />
+                        </figure>
+                    </a>
+                    <h2>
+                        <a href="./jj-signage.html"
+                            >J&J Design Digital Signage</a
+                        >
+                    </h2>
+                    <h3>Brand Identity, Content Strategy, UI/UX Design</h3>
+                    <hr />
+                </article>
+                <article>
+                    <a href="./kurt-vonnegut-museum.html">
+                        <figure>
+                            <img
+                                class="gallery-img"
+                                src="./assets/KVM/kvmPosterMockup.jpg"
+                            />
+                        </figure>
+                    </a>
+                    <h2>
+                        <a href="./kurt-vonnegut-museum.html"
+                            >Kurt Vonnegut Museum</a
+                        >
+                    </h2>
+                    <h3>Brand Identity, Creative Direction</h3>
+                    <hr />
+                </article>
+                <article>
+                    <a href="./shedd.html">
+                        <figure>
+                            <img
+                                class="gallery-img"
+                                src="./assets/Shedd/sheddHero.png"
+                            />
+                        </figure>
+                    </a>
+                    <h2><a href="./shedd.html">Shedd Aquarium</a></h2>
+                    <h3>Brand Identity & Strategy, Creative Direction</h3>
                 </article>
             </section>
         </main>
