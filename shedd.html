@@ -1,115 +1,252 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shedd Aquarium | Branding</title>
-    <meta name="description" content="Welcome!" />
-    <meta name="author" content="Lily Meng" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="./assets/Favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <meta name="description" content="Welcome!" />
+        <meta name="author" content="Lily Meng" />
+        <title>Lily Meng | Shedd Aquarium</title>
+    </head>
 
-    <!-- Link to your favicon -->
-    <link rel="shortcut icon" type="image/png" href="./images/Favicon.png" />
+    <style>
+        #project-hero figure img {
+            /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+            /* object-position: 50% 45%; */
+        }
+    </style>
 
-    <!-- Link to your stylesheet -->
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./homeCopy.css" />
-    <link rel="stylesheet" href="./shedd.css" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="./script.js" defer></script>
-  </head>
-
-  <body class="shedd">
-    <div class="row">
-      <div class="topnavA">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a
-          href="https://drive.google.com/file/d/1WoazbPm0R5GD82mlpRlPiecDnsTCFdSI/view?usp=drive_link"
-          >RESUME</a
-        >
-        <a href="spotify.html">NEXT</a>
-      </div>
-    </div>
-    <div class="rowThin">
-      <h1 class="headingA">Rebranding Chicago's historic Shedd Aquarium.</h1>
-    </div>
-    <div class="rowThin">
-      <p class="introA">
-        I chose to rebrand Shedd Aquarium for this project since it was and
-        still is a nostalgic and dear place to me as a Chicago native, having
-        visited the place many times as a child and teen. My goal for this
-        rebranding was to emphasize the wonder and excitement I felt from the
-        aquarium as a child while bringing out the highlights and its
-        conservatory work.
-      </p>
-    </div>
-
-    <div class="galleryA">
-      <div class="galleryItemA">
-        <div class="hLine"></div>
-        <div class="aGoals">
-          Class: Systems for Brands, Spring 2021<br /><br />Time: 2.17.2021 to
-          5.14.2021<br /><br />Project: Choose a company, product line, or
-          cultural instution, etc. to rebrand in its entirety, beginning with
-          research and ending with the Visual Identity Guidelines.<br /><br />
-          Scope: Semester-long independent branding project.<br /><br />
-          Responsibilities: background research, visual identity development,
-          including logo, color palette, graphic system, and typography, and
-          appropriate sample applications.<br /><br />After completing
-          background research and an audience analysis, I created multiple
-          moodboards to refine and finalize the visual identity and aesthetic I
-          felt fit best.
+    <body id="shedd" class="project-page">
+        <header>
+            <nav>
+                <a class="nav-btn" href="./index.html">lily meng</a>
+                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+                <button id="menu-btn" onclick="toggleMenu()">menu</button>
+            </nav>
+        </header>
+        <div id="menu-container">
+            <menu id="main-menu-1">
+                <li><a href="./index.html">home</a></li>
+                <li id="work-btn">work</li>
+            </menu>
+            <menu id="main-menu-2">
+                <li><a href="./about.html">about</a></li>
+                <li>
+                    <a
+                        href="https://drive.google.com/file/d/1WoazbPm0R5GD82mlpRlPiecDnsTCFdSI/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        resume
+                    </a>
+                </li>
+            </menu>
+            <menu id="work-list">
+                <li><a href="./mindlog.html">MindLog</a></li>
+                <li><a href="./juicycouture.html">juicy couture</a></li>
+                <li><a href="./jj-signage.html">J&J digital signage</a></li>
+                <li>
+                    <a href="./kurt-vonnegut-museum.html"
+                        >kurt vonnegut museum</a
+                    >
+                </li>
+                <li><a href="./shedd.html">shedd aquarium</a></li>
+            </menu>
         </div>
-        <div class="hLine"></div>
-        <div class="subheadShedd">RESEARCH</div>
-        <div id="audienceAnalysis"></div>
-        <div id="competitor"></div>
-        <div class="hLine"></div>
-        <div class="subheadShedd">DESIGN & SKETCHING</div>
-        <div id="moodboardA"></div>
-        <div id="sketchesA"></div>
-        <div class="hLine"></div>
-        <div class="subheadShedd">FINAL BRAND IDENTITY</div>
-        <div class="aGoals">
-          For my final logo iteration, I created the logo by illustrating the
-          silhouette of two corals, staghorn and elkhorn, and intersecting the
-          two as a window to an aquarium tank. The two corals are ones Shedd
-          Aquarium and SECORE International monitored in the Caribbean to
-          develop strategies for restoring coral populations in the wild, and I
-          wanted the logo to reflect the aquarium's conservatory identity.
-        </div>
-        <div id="aLogos"></div>
-        <div id="aPattern"></div>
-        <div id="aColor"></div>
-        <div id="aType"></div>
-        <div class="aGoals">
-          For sample applications, I had the opportunity to explore the numerous
-          options I could see the aquarium applying as a cultural institution in
-          an urban site. I wanted the imagery to make full use of the vibrancy
-          and wildlife diversity in the institution.<br /><br />The other
-          graphics are the silhouettes of the staghorn and elkhorn corals, which
-          are applied in later merchandise such as tote bags and enamel pins.
-        </div>
-        <div id="aStationery"></div>
-        <div id="aBC"></div>
-        <div id="aWeb"></div>
-        <div id="aSocial"></div>
-        <div id="aBus"></div>
-        <div id="aTickets"></div>
-        <div id="aBrochure"></div>
-        <div id="aBag"></div>
-        <div id="aPin"></div>
-        <div id="aBook"></div>
-        <div id="aPostcard"></div>
-      </div>
-    </div>
-    <div class="footer">
-      <span style="color: black">lilymeng517@gmail.com</span>
-    </div>
-    <!-- <div class="footerNextNF"><a href="emw.html">Next -></a></div> -->
-  </body>
+        <main>
+            <section id="project-hero">
+                <figure>
+                    <img src="./assets/Shedd/sheddBrochure.png" />
+                </figure>
+                <div id="project-description">
+                    <div id="project-name">
+                        <h1 id="project-title">Shedd Aquarium</h1>
+                    </div>
+                    <div id="project-specs">
+                        <h3>Class: <b>Systems as Brands</b></h3>
+                        <h3>Timeline: <b>3 months</b></h3>
+                        <h3>
+                            Role:
+                            <b>Brand Designer, Creative Director</b>
+                        </h3>
+                        <h3>
+                            Tools:
+                            <b>
+                                Photoshop, Illustrator, InDesign, Figma,
+                                Procreate
+                            </b>
+                        </h3>
+                    </div>
+                </div>
+            </section>
+            <section id="project-container">
+                <section id="toc-container">
+                    <ul id="toc">
+                        <li><a href="#research">research</a></li>
+                        <li>
+                            <a href="#visual-explanation">visual explanation</a>
+                        </li>
+                        <li>
+                            <a href="#final-brand-identity"
+                                >final brand identity</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section id="project-contents">
+                    <article>
+                        <h2>
+                            Rebranding Chicago’s historic Shedd Aquarium to
+                            emphasize its vibrancy and conservation.
+                        </h2>
+                        <p>
+                            My assignment was to rebrand a company or
+                            institution in its entirety, and I chose to rebrand
+                            Shedd Aquarium for this project since it was and
+                            still is a nostalgic and dear place to me as a
+                            Chicago native, having visited the place many times
+                            as a child and teen. My goal for this rebranding was
+                            to emphasize the wonder and excitement I felt from
+                            the aquarium as a child while bringing out the
+                            highlights and its conservatory work for marine life
+                            and coral reefs.
+                        </p>
+                    </article>
+                    <article id="research">
+                        <h4>research</h4>
+                        <p>
+                            I began with an audience and competitor analysis to
+                            scope out the current positioning and target
+                            demographic for the Shedd Aquarium. Because many of
+                            Chicago’s cultural institutions are located in the
+                            same area, its biggest competitors are a combination
+                            of these institutions as well as other traditionally
+                            more entertaining attractions like Navy Pier. From
+                            creating a positioning X-Y chart, I was able to see
+                            that Shedd Aquarium had a lot more potential to
+                            boost its educational aspects and create a more
+                            visually appealing branding to stand out among the
+                            other cultural institutions surrounding it in
+                            Chicago.
+                        </p>
+                        <figure>
+                            <img src="./assets/Shedd/sheddAnalysis.svg" />
+                        </figure>
+                    </article>
+                    <article id="visual-exploration">
+                        <h4>visual exploration</h4>
+                        <p>
+                            I drew inspiration from the vibrant colors of the
+                            ocean for all of the three moodboards I made, and
+                            overall I wanted a way to capture movement and
+                            playfulness reminiscent of marine life.
+                        </p>
+                        <figure>
+                            <img src="./assets/Shedd/sheddMoodboards.svg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddLogoSketch.svg" />
+                        </figure>
+                    </article>
+                    <article id="final-brand-identity">
+                        <h4>final brand identity</h4>
+                        <p>
+                            Through two rounds of moodboards and five rounds of
+                            logo iterations, I was able to create a logo and
+                            mark, as well as a pattern. The mark was created by
+                            illustrating the silhouette of two corals featured
+                            in Shedd Aquarium’s conservation efforts, staghorn
+                            and elkhorn, and intersecting the two as a window to
+                            an aquarium tank. I wanted Shedd Aquarium’s
+                            conservation and restoration strategies to be
+                            reflected tangibly in its brand identity.
+                        </p>
+                        <figure>
+                            <img src="./assets/Shedd/sheddLogos.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddColors.png" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddGraphics.png" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddTypography.svg" />
+                        </figure>
+                        <p>
+                            For sample applications, I had the opportunity to
+                            explore the numerous options I could see the
+                            aquarium applying as a cultural institution in an
+                            urban site. I wanted the imagery to make full use of
+                            the vibrancy and wildlife diversity in the
+                            institution. The other graphics are the silhouettes
+                            of the staghorn and elkhorn corals, which are
+                            applied in later merchandise such as tote bags and
+                            enamel pins. I wanted to mock up collateral such as
+                            street banners and bus stop ads in particular, as
+                            the route to get to the Shedd Aquarium via public
+                            transit is by bus.
+                        </p>
+                        <figure>
+                            <img src="./assets/Shedd/sheddStationery.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddBC.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddWebsite.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddSocial.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddBusMockup.png" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddBanner.png" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddTicket.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddBrochure.png" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddTote.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddPin.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddMagazine.jpg" />
+                        </figure>
+                        <figure>
+                            <img src="./assets/Shedd/sheddPostcard.jpg" />
+                        </figure>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
+                    email
+                </a>
+                <a
+                    class="nav-btn"
+                    href="https://www.linkedin.com/in/lilymeng17/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    linkedin
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="./scripts/main.js"></script>
 </html>

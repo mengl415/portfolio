@@ -30,6 +30,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: PP Mori;
+    src: url(../assets/fonts/Mori/PPMori-ExtraBoldItalic.otf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
     font-family: Canela;
     src: url(../assets/fonts/Canela/CANELA-BOLD.OTF);
     font-weight: 700;
@@ -106,20 +112,17 @@ a:hover,
 a:active {
     color: var(--accentColor);
 }
-
 .serif {
     font-family: var(--serifFont);
     font-weight: 700;
     line-height: 96px;
 }
-
 #about h1 {
     font-size: 64px;
     line-height: 110%; /* 70.4px */
     text-transform: none;
     margin-bottom: 30px;
 }
-
 .project-page h1 {
     line-height: 115%; /* 110.4px */
 }
@@ -131,7 +134,8 @@ a:active {
 .project-page h3 {
     line-height: 250%; /* 60px */
 }
-.project-page h4 {
+.project-page h4,
+#play h1 {
     color: var(--accentColor);
     font-family: PP Mori;
     font-size: 15px;
@@ -143,7 +147,52 @@ a:active {
     margin-bottom: 25px;
 }
 
-/* misc element styles */
+body,
+#menu-container {
+    background-image: url(../assets/gradientBG.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+}
+.project-page {
+    background-image: none;
+    background-color: var(--whiteColor);
+}
+main {
+    margin: var(--mainMarginY) var(--marginX);
+}
+#home main {
+    display: grid;
+    grid: 1fr/ 0.4fr 0.6fr;
+    gap: var(--hrGap);
+}
+.project-page main {
+    margin-top: 0px;
+}
+header {
+    top: 0px;
+    margin: var(--navMarginY) var(--marginX) 0px var(--marginX);
+}
+header,
+footer {
+    position: fixed;
+    width: calc(100% - var(--marginX) * 2);
+    z-index: 3;
+}
+nav {
+    display: flex;
+}
+nav :last-child {
+    margin-left: auto;
+}
+footer {
+    bottom: 0px;
+    margin: 0px var(--marginX) var(--navMarginY) var(--marginX);
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
 img {
     width: 100%;
 }
@@ -173,41 +222,12 @@ button:hover,
 button:active,
 .nav-btn:hover,
 .nav-btn:active {
-    /* text-decoration: none; */
     background-color: var(--textColor);
     color: var(--whiteColor);
 }
 hr {
     border: 0.5px solid var(--textColor);
     margin: 15px 0px;
-}
-
-/* div section styles */
-body {
-    background-image: url(../assets/gradientBG.png);
-    background-attachment: fixed;
-}
-.project-page {
-    background-image: none;
-    background-color: var(--whiteColor);
-    /* background-color: cornflowerblue; */
-}
-header {
-    top: 0px;
-    margin: var(--navMarginY) var(--marginX) 0px var(--marginX);
-}
-header,
-footer {
-    /* background-color: red; */
-    position: fixed;
-    width: calc(100% - var(--marginX) * 2);
-    z-index: 3;
-}
-nav {
-    display: flex;
-}
-nav :last-child {
-    margin-left: auto;
 }
 #play-btn {
     color: var(--accentColor);
@@ -222,15 +242,6 @@ nav :last-child {
     background-color: var(--accentColor);
     color: var(--whiteColor);
 }
-footer {
-    bottom: 0px;
-    margin: 0px var(--marginX) var(--navMarginY) var(--marginX);
-}
-footer div {
-    display: flex;
-    justify-content: space-between;
-}
-
 #menu-btn:hover,
 #menu-btn:active,
 #work-btn:hover,
@@ -238,7 +249,6 @@ footer div {
     cursor: pointer;
 }
 #menu-container {
-    background-image: url(../assets/gradientBG.png);
     position: fixed;
     display: grid;
     grid: 0.5fr 0.5fr/0.5fr 0.5fr;
@@ -283,6 +293,7 @@ footer div {
     grid-column: 2;
     border-top: 1px solid var(--textColor);
     margin: 0px var(--marginX) 100px 0px;
+    padding-top: 1rem;
     visibility: hidden;
     width: fit-content;
 }
@@ -293,23 +304,15 @@ footer div {
     text-transform: capitalize;
 }
 
-main {
-    margin: var(--mainMarginY) var(--marginX);
-}
-#home main {
-    display: grid;
-    grid: 1fr/ 0.35fr 0.1fr 0.55fr;
-    /* outline: 1px solid aqua; */
-}
-
+/* home page stuff */
 #intro {
-    /* outline: 1px solid orange; */
     height: 100%;
 }
 #intro-contents {
-    /* outline: 1px solid blueviolet; */
     top: var(--mainMarginY);
     position: sticky;
+    border-right: 1px solid var(--textColor);
+    padding-right: var(--hrGap);
 }
 #intro-contents h1 {
     line-height: 96px;
@@ -323,7 +326,9 @@ main {
 #work-gallery article {
     margin-bottom: var(--bottomMargin);
 }
-#work-gallery article:last-child {
+#work-gallery article:last-child,
+#project-contents article:last-child,
+#play-gallery article:last-child {
     margin-bottom: 0px;
 }
 .gallery-img {
@@ -343,7 +348,7 @@ main {
     grid: 1fr/ 1fr 1fr;
 }
 #about-text {
-    padding: 30px 30px 30px 0;
+    padding: 30px var(--hrGap) 30px 0;
     border-right: 1px solid var(--textColor);
 }
 #resume-btn a:link,
@@ -365,7 +370,7 @@ main {
     background-color: var(--accentColor);
 }
 #profile-pic-container {
-    margin: 30px 0px 0px 40px;
+    margin: 30px 0px 0px var(--hrGap);
 }
 #profile-pic {
     max-width: 500px;
@@ -375,23 +380,31 @@ main {
 }
 
 /* project page stuff */
+.project-page figure {
+    margin: 25px 0px;
+}
 #project-hero {
     margin-bottom: var(--bottomMargin);
 }
 #project-hero figure {
     width: 100%;
-    margin-bottom: var(--marginX);
+    margin-top: 0px; /* FULL BLEED */
 }
 #project-hero figure img {
-    max-width: 1240px;
-    max-height: 557px;
+    width: 1240px;
+    height: 600px; /* WAS PREVIOUSLY 557px AS PER FIGMA */
     object-fit: cover;
-    object-position: 50% 50%;
+    /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+    /* CHANGE IN INDIVIDUAL PROJECT FILES FOR EACH HERO IMG IF NEEDED */
+    object-position: 50% 45%;
     overflow: hidden;
 }
 #project-description {
     display: grid;
-    grid: 1fr/ 0.6fr 0.4fr;
+    grid: 1fr/ 0.6fr 0.05fr 0.35fr;
+}
+#project-specs {
+    grid-column: 3;
 }
 #project-specs b {
     font-weight: 600;
@@ -403,20 +416,25 @@ main {
 #toc {
     position: sticky;
     top: var(--mainMarginY);
-    border-right: 1px solid var(--textColor);
+    /* border-right: 1px solid var(--textColor); */
 }
-#toc li {
+#toc li,
+#play-list li {
     list-style-type: none;
     font-family: var(--sansSerifFont);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 250%; /* 50px */
+    margin-bottom: 25px;
     letter-spacing: var(--letterSpacing);
     text-transform: uppercase;
 }
-#project-contents article {
+#project-contents,
+#play-gallery {
     margin-left: 20px;
+}
+#project-contents article,
+#play-gallery article {
     margin-bottom: var(--bottomMargin);
 }
 #project-contents ol li {
@@ -428,6 +446,18 @@ main {
     line-height: 125%; /* 22.5px */
     letter-spacing: var(--letterSpacing);
     margin: 1em;
+}
+
+/* play page stuff */
+#play main {
+    display: grid;
+    grid: 1fr / 0.25fr 0.75fr;
+}
+#play-list {
+    position: sticky;
+    top: var(--mainMarginY);
+    /* border-right: 1px solid var(--textColor); */
+    margin-right: 20px;
 }
 
 /* variables, basically */
@@ -444,4 +474,5 @@ main {
     --navMarginY: 50px;
     --mainMarginY: 110px;
     --bottomMargin: 110px;
+    --hrGap: 60px;
 }
