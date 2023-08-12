@@ -1,215 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="./assets/Favicon.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <meta name="description" content="Welcome!" />
-        <meta name="author" content="Lily Meng" />
-        <title>Lily Meng | Juicy Couture</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | Juicy Couture</title>
+  </head>
 
-    <style>
-        h1{
-            width: min-content;
-        }
-        #project-hero figure img {
-            /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-            /* object-position: 50% 30%; */
-        }
-    </style>
+  <style>
+    h1 {
+      width: min-content;
+    }
+    #project-hero figure img {
+      /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+      /* object-position: 50% 30%; */
+    }
+  </style>
 
-    <body id="mindlog" class="project-page">
-        <header>
-            <nav>
-                <a class="nav-btn" href="./index.html">lily meng</a>
-                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
-                <button id="menu-btn" onclick="toggleMenu()">menu</button>
-            </nav>
-        </header>
-        <div id="menu-container">
-            <menu id="main-menu-1">
-                <li><a href="./index.html">home</a></li>
-                <li id="work-btn">work</li>
-            </menu>
-            <menu id="main-menu-2">
-                <li><a href="./about.html">about</a></li>
-                <li>
-                    <a
-                        href="https://drive.google.com/file/d/1WoazbPm0R5GD82mlpRlPiecDnsTCFdSI/view?usp=drive_link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        resume
-                    </a>
-                </li>
-            </menu>
-            <menu id="work-list">
-                <li><a href="./mindlog.html">MindLog</a></li>
-                <li><a href="./juicycouture.html">juicy couture</a></li>
-                <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                <li>
-                    <a href="./kurt-vonnegut-museum.html"
-                        >kurt vonnegut museum</a
-                    >
-                </li>
-                <li><a href="./shedd.html">shedd aquarium</a></li>
-            </menu>
+  <body id="mindlog" class="project-page">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">lily meng</a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-container">
+      <menu id="main-menu-1">
+        <li><a href="./index.html">home</a></li>
+        <li id="work-btn">work</li>
+      </menu>
+      <menu id="main-menu-2">
+        <li><a href="./about.html">about</a></li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1WoazbPm0R5GD82mlpRlPiecDnsTCFdSI/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            resume
+          </a>
+        </li>
+      </menu>
+      <menu id="work-list">
+        <li><a href="./mindlog.html">MindLog</a></li>
+        <li><a href="./juicycouture.html">juicy couture</a></li>
+        <li><a href="./jj-signage.html">J&J digital signage</a></li>
+        <li>
+          <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+        </li>
+        <li><a href="./shedd.html">shedd aquarium</a></li>
+      </menu>
+    </div>
+    <main>
+      <section id="project-hero">
+        <figure>
+          <img src="./assets/JuicyCouture/juicySocialMockup.jpg" />
+        </figure>
+        <div id="project-description">
+          <div id="project-name">
+            <h1 id="project-title">Juicy Couture</h1>
+          </div>
+          <div id="project-specs">
+            <h3><b>Authentic Brands Group Internship Work</b></h3>
+            <h3>Timeline: <b>3 weeks</b></h3>
+            <h3>
+              Role:
+              <b>Brand & Graphic Designer</b>
+            </h3>
+            <h3>Tools: <b>Photoshop, Illustrator</b></h3>
+          </div>
         </div>
-        <main>
-            <section id="project-hero">
-                <figure>
-                    <img src="./assets/JuicyCouture/juicySocialMockup.png" />
-                </figure>
-                <div id="project-description">
-                    <div id="project-name">
-                        <h1 id="project-title">Juicy Couture</h1>
-                    </div>
-                    <div id="project-specs">
-                        <h3><b>Authentic Brands Group Internship Work</b></h3>
-                        <h3>Timeline: <b>3 weeks</b></h3>
-                        <h3>
-                            Role:
-                            <b>Brand & Graphic Designer</b>
-                        </h3>
-                        <h3>Tools: <b>Photoshop, Illustrator</b></h3>
-                    </div>
-                </div>
-            </section>
-            <section id="project-container">
-                <section id="toc-container">
-                    <ul id="toc">
-                        <li><a href="#moodboard">moodboard</a></li>
-                        <li><a href="#logo-designs">logo designs</a></li>
-                        <li><a href="#clothing-tags">clothing tags</a></li>
-                        <li>
-                            <a href="#holiday-marketing">holiday marketing</a>
-                        </li>
-                        <li><a href="#campaign">campaign</a></li>
-                    </ul>
-                </section>
-                <section id="project-contents">
-                    <article>
-                        <h2>
-                            Taking Juicy Couture’s beloved brand and heritage in
-                            a new Y2K direction.
-                        </h2>
-                        <p>
-                            Juicy Couture is an LA-based clothing brand known
-                            for the iconic Juicy velour tracksuit, growing to
-                            become a global fashion company as a casual luxury
-                            brand. As part of my internship, I was tasked with
-                            designing a new Y2K direction for Juicy Couture
-                            Icons, encompassing logo designs, clothing hangtags,
-                            joker fit pant tags, and woven labels, along with
-                            general social media and email marketing
-                            advertisements for the 2022 holiday season.
-                        </p>
-                    </article>
-                    <article id="moodboard">
-                        <h4>moodboard</h4>
-                        <p>
-                            I began with a moodboard to take stock of Y2K trends
-                            and get an overview of various potential colors,
-                            textures, and assets to create and use. This helped
-                            inspire new ideas for logo and packaging when I was
-                            stuck, as well as provided multiple visual
-                            directions to explore and refine.
-                        </p>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcSwipe.svg" />
-                        </figure>
-                    </article>
-                    <article id="logo-designs">
-                        <h4>logo designs</h4>
-                        <p>
-                            Tasked with designing with the current brand
-                            guidelines, such as the typeface used for "Juicy
-                            Couture," and encouraged to use the heritage symbols
-                            (the dog, cherry, and crown) as well as create my
-                            own, I began designing in Illustrator and exploring
-                            every possibility I could think of. I combined some
-                            with gradients that I had created, as well as
-                            holographic and colorful stock textures I found, and
-                            ended up choosing a smaller group of logos to
-                            present.
-                        </p>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcLogos1.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcLogos2.svg" />
-                        </figure>
-                    </article>
-                    <article id="clothing-tags">
-                        <h4>clothing tags</h4>
-                        <p>
-                            For the clothing tags, I was tasked to design using
-                            both the Y2K direction as well as current Juicy
-                            heritage symbols, so I combined the two in various
-                            ways, such as Y2K colors and textures with heritage
-                            symbols or vice versa. I also played with the
-                            physical texturing and layering of the packaging for
-                            the hangtags, designing potential vinyl or other
-                            transparent material patterned with symbols, as well
-                            as cutouts of the symbols.
-                        </p>
-                    </article>
-                    <article>
-                        <h4>hangtags</h4>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcHangtags.svg" />
-                        </figure>
-                    </article>
-                    <article>
-                        <h4>joker fit pant tags</h4>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcJokerFit.svg" />
-                        </figure>
-                    </article>
-                    <article>
-                        <h4>woven labels</h4>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcWovenLabel.svg" />
-                        </figure>
-                    </article>
-                    <article id="holiday-marketing">
-                        <h4>holiday marketing materials</h4>
-                        <figure>
-                            <img
-                                src="./assets/JuicyCouture/juicySocialMockup.png"
-                            />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcSocialFeed.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JuicyCouture/jcEmail.svg" />
-                        </figure>
-                    </article>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
-                    email
-                </a>
-                <a
-                    class="nav-btn"
-                    href="https://www.linkedin.com/in/lilymeng17/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    linkedin
-                </a>
-            </div>
-        </footer>
-    </body>
-    <script src="./scripts/main.js"></script>
+      </section>
+      <section id="project-container">
+        <section id="toc-container">
+          <ul id="toc">
+            <li><a href="#moodboard">moodboard</a></li>
+            <li><a href="#logo-designs">logo designs</a></li>
+            <li><a href="#clothing-tags">clothing tags</a></li>
+            <li>
+              <a href="#holiday-marketing">holiday marketing</a>
+            </li>
+            <li><a href="#campaign">campaign</a></li>
+          </ul>
+        </section>
+        <section id="project-contents">
+          <article>
+            <h2>
+              Taking Juicy Couture’s beloved brand and heritage in a new Y2K
+              direction.
+            </h2>
+            <p>
+              Juicy Couture is an LA-based clothing brand known for the iconic
+              Juicy velour tracksuit, growing to become a global fashion company
+              as a casual luxury brand. As part of my internship, I was tasked
+              with designing a new Y2K direction for Juicy Couture Icons,
+              encompassing logo designs, clothing hangtags, joker fit pant tags,
+              and woven labels, along with general social media and email
+              marketing advertisements for the 2022 holiday season.
+            </p>
+          </article>
+          <article id="moodboard">
+            <h4>moodboard</h4>
+            <p>
+              I began with a moodboard to take stock of Y2K trends and get an
+              overview of various potential colors, textures, and assets to
+              create and use. This helped inspire new ideas for logo and
+              packaging when I was stuck, as well as provided multiple visual
+              directions to explore and refine.
+            </p>
+            <figure>
+              <img src="./assets/JuicyCouture/jcSwipe.svg" />
+            </figure>
+          </article>
+          <article id="logo-designs">
+            <h4>logo designs</h4>
+            <p>
+              Tasked with designing with the current brand guidelines, such as
+              the typeface used for "Juicy Couture," and encouraged to use the
+              heritage symbols (the dog, cherry, and crown) as well as create my
+              own, I began designing in Illustrator and exploring every
+              possibility I could think of. I combined some with gradients that
+              I had created, as well as holographic and colorful stock textures
+              I found, and ended up choosing a smaller group of logos to
+              present.
+            </p>
+            <figure>
+              <img src="./assets/JuicyCouture/jcLogos1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JuicyCouture/jcLogos2.svg" />
+            </figure>
+          </article>
+          <article id="clothing-tags">
+            <h4>clothing tags</h4>
+            <p>
+              For the clothing tags, I was tasked to design using both the Y2K
+              direction as well as current Juicy heritage symbols, so I combined
+              the two in various ways, such as Y2K colors and textures with
+              heritage symbols or vice versa. I also played with the physical
+              texturing and layering of the packaging for the hangtags,
+              designing potential vinyl or other transparent material patterned
+              with symbols, as well as cutouts of the symbols.
+            </p>
+          </article>
+          <article>
+            <h4>hangtags</h4>
+            <figure>
+              <img src="./assets/JuicyCouture/jcHangtags.svg" />
+            </figure>
+          </article>
+          <article>
+            <h4>joker fit pant tags</h4>
+            <figure>
+              <img src="./assets/JuicyCouture/jcJokerFit.svg" />
+            </figure>
+          </article>
+          <article>
+            <h4>woven labels</h4>
+            <figure>
+              <img src="./assets/JuicyCouture/jcWovenLabel.svg" />
+            </figure>
+          </article>
+          <article id="holiday-marketing">
+            <h4>holiday marketing materials</h4>
+            <figure>
+              <img src="./assets/JuicyCouture/juicySocialMockup.png" />
+            </figure>
+            <figure>
+              <img src="./assets/JuicyCouture/jcSocialFeed.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JuicyCouture/jcEmail.svg" />
+            </figure>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
 </html>

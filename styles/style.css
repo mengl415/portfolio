@@ -1,478 +1,478 @@
 /* fonts */
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-RegularItalic.otf);
-    font-weight: 400;
-    font-style: italic;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-RegularItalic.otf);
+  font-weight: 400;
+  font-style: italic;
 }
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-SemiBold.otf);
-    font-weight: 600;
-    font-style: normal;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-SemiBold.otf);
+  font-weight: 600;
+  font-style: normal;
 }
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-SemiBoldItalic.otf);
-    font-weight: 600;
-    font-style: italic;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-SemiBoldItalic.otf);
+  font-weight: 600;
+  font-style: italic;
 }
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-ExtraBold.otf);
-    font-weight: 800;
-    font-style: normal;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-ExtraBold.otf);
+  font-weight: 800;
+  font-style: normal;
 }
 @font-face {
-    font-family: PP Mori;
-    src: url(../assets/fonts/Mori/PPMori-ExtraBoldItalic.otf);
-    font-weight: 800;
-    font-style: italic;
+  font-family: PP Mori;
+  src: url(../assets/fonts/Mori/PPMori-ExtraBoldItalic.otf);
+  font-weight: 800;
+  font-style: italic;
 }
 @font-face {
-    font-family: Canela;
-    src: url(../assets/fonts/Canela/CANELA-BOLD.OTF);
-    font-weight: 700;
-    font-style: normal;
+  font-family: Canela;
+  src: url(../assets/fonts/Canela/CANELA-BOLD.OTF);
+  font-weight: 700;
+  font-style: normal;
 }
 @font-face {
-    font-family: Canela;
-    src: url(../assets/fonts/Canela/CANELA-BOLDITALIC.OTF);
-    font-weight: 700;
-    font-style: italic;
+  font-family: Canela;
+  src: url(../assets/fonts/Canela/CANELA-BOLDITALIC.OTF);
+  font-weight: 700;
+  font-style: italic;
 }
 @font-face {
-    font-family: PP Neue Machina;
-    src: url(../assets/fonts/PPNeueMachina-InktrapUltrabold.otf);
-    font-weight: 800;
-    font-style: italic;
+  font-family: PP Neue Machina;
+  src: url(../assets/fonts/PPNeueMachina-InktrapUltrabold.otf);
+  font-weight: 800;
+  font-style: italic;
 }
 
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* text styles */
 h1 {
-    color: var(--textColor);
-    font-family: var(--sansSerifFont);
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: var(--letterSpacing);
-    text-transform: capitalize;
+  color: var(--textColor);
+  font-family: var(--sansSerifFont);
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: var(--letterSpacing);
+  text-transform: capitalize;
 }
 h2 {
-    color: var(--textColor);
-    font-family: var(--sansSerifFont);
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 125%; /* 60px */
-    letter-spacing: var(--letterSpacing);
-    text-transform: capitalize;
-    margin: 5px 0px;
+  color: var(--textColor);
+  font-family: var(--sansSerifFont);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125%; /* 60px */
+  letter-spacing: var(--letterSpacing);
+  text-transform: capitalize;
+  margin: 5px 0px;
 }
 h3 {
-    color: var(--textColor);
-    font-family: var(--sansSerifFont);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 30px */
-    letter-spacing: var(--letterSpacing);
-    text-transform: capitalize;
+  color: var(--textColor);
+  font-family: var(--sansSerifFont);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 30px */
+  letter-spacing: var(--letterSpacing);
+  text-transform: capitalize;
 }
 p {
-    color: var(--textColor);
-    font-family: var(--sansSerifFont);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 22.5px */
-    letter-spacing: var(--letterSpacing);
-    margin: 1em 0;
+  color: var(--textColor);
+  font-family: var(--sansSerifFont);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+  letter-spacing: var(--letterSpacing);
+  margin: 1em 0;
 }
 a:link,
 a:visited {
-    color: var(--textColor);
-    text-decoration: none;
+  color: var(--textColor);
+  text-decoration: none;
 }
 a:hover,
 a:active {
-    color: var(--accentColor);
+  color: var(--accentColor);
 }
 .serif {
-    font-family: var(--serifFont);
-    font-weight: 700;
-    line-height: 96px;
+  font-family: var(--serifFont);
+  font-weight: 700;
+  line-height: 96px;
 }
 #about h1 {
-    font-size: 64px;
-    line-height: 110%; /* 70.4px */
-    text-transform: none;
-    margin-bottom: 30px;
+  font-size: 64px;
+  line-height: 110%; /* 70.4px */
+  text-transform: none;
+  margin-bottom: 30px;
 }
 .project-page h1 {
-    line-height: 115%; /* 110.4px */
+  line-height: 115%; /* 110.4px */
 }
 .project-page h2 {
-    font-size: 40px;
-    line-height: 120%; /* 48px */
-    text-transform: none;
+  font-size: 40px;
+  line-height: 120%; /* 48px */
+  text-transform: none;
 }
 .project-page h3 {
-    line-height: 250%; /* 60px */
+  line-height: 250%; /* 60px */
 }
 .project-page h4,
 #play h1 {
-    color: var(--accentColor);
-    font-family: PP Mori;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%; /* 18px */
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+  color: var(--accentColor);
+  font-family: PP Mori;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 18px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 body,
 #menu-container {
-    background-image: url(../assets/gradientBG.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50%;
+  background-image: url(../assets/gradientBG.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50%;
 }
 .project-page {
-    background-image: none;
-    background-color: var(--whiteColor);
+  background-image: none;
+  background-color: var(--whiteColor);
 }
 main {
-    margin: var(--mainMarginY) var(--marginX);
+  margin: var(--mainMarginY) var(--marginX);
 }
 #home main {
-    display: grid;
-    grid: 1fr/ 0.4fr 0.6fr;
-    gap: var(--hrGap);
+  display: grid;
+  grid: 1fr/ 0.4fr 0.6fr;
+  gap: var(--hrGap);
 }
 .project-page main {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 header {
-    top: 0px;
-    margin: var(--navMarginY) var(--marginX) 0px var(--marginX);
+  top: 0px;
+  margin: var(--navMarginY) var(--marginX) 0px var(--marginX);
 }
 header,
 footer {
-    position: fixed;
-    width: calc(100% - var(--marginX) * 2);
-    z-index: 3;
+  position: fixed;
+  width: calc(100% - var(--marginX) * 2);
+  z-index: 3;
 }
 nav {
-    display: flex;
+  display: flex;
 }
 nav :last-child {
-    margin-left: auto;
+  margin-left: auto;
 }
 footer {
-    bottom: 0px;
-    margin: 0px var(--marginX) var(--navMarginY) var(--marginX);
+  bottom: 0px;
+  margin: 0px var(--marginX) var(--navMarginY) var(--marginX);
 }
 footer div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 button,
 .nav-btn {
-    background-color: var(--whiteColor);
-    color: var(--textColor);
-    padding: 3px 9px;
-    font-family: var(--sansSerifFont);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 20px */
-    letter-spacing: 0.5px;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 25px;
-    border: 1px solid var(--blackColor);
+  background-color: var(--whiteColor);
+  color: var(--textColor);
+  padding: 3px 9px;
+  font-family: var(--sansSerifFont);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 20px */
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid var(--blackColor);
 }
 button a:link,
 button a:visited,
 .nav-btn:link,
 .nav-btn:visited {
-    color: var(--textColor);
+  color: var(--textColor);
 }
 button:hover,
 button:active,
 .nav-btn:hover,
 .nav-btn:active {
-    background-color: var(--textColor);
-    color: var(--whiteColor);
+  background-color: var(--textColor);
+  color: var(--whiteColor);
 }
 hr {
-    border: 0.5px solid var(--textColor);
-    margin: 15px 0px;
+  border: 0.5px solid var(--textColor);
+  margin: 15px 0px;
 }
 #play-btn {
-    color: var(--accentColor);
-    font-family: var(--playFont);
-    font-weight: 800;
-    letter-spacing: var(--letterSpacing);
-    border: 1px solid var(--accentColor);
-    padding-top: 5px;
+  color: var(--accentColor);
+  font-family: var(--playFont);
+  font-weight: 800;
+  letter-spacing: var(--letterSpacing);
+  border: 1px solid var(--accentColor);
+  padding-top: 5px;
 }
 #play-btn:hover,
 #play-btn:active {
-    background-color: var(--accentColor);
-    color: var(--whiteColor);
+  background-color: var(--accentColor);
+  color: var(--whiteColor);
 }
 #menu-btn:hover,
 #menu-btn:active,
 #work-btn:hover,
 #work-btn:active {
-    cursor: pointer;
+  cursor: pointer;
 }
 #menu-container {
-    position: fixed;
-    display: grid;
-    grid: 0.5fr 0.5fr/0.5fr 0.5fr;
-    grid-auto-flow: column;
-    top: -100vh;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
+  position: fixed;
+  display: grid;
+  grid: 0.5fr 0.5fr/0.5fr 0.5fr;
+  grid-auto-flow: column;
+  top: -100vh;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
 }
 #main-menu-1 {
-    margin: var(--marginX) 0px 0px var(--marginX);
+  margin: var(--marginX) 0px 0px var(--marginX);
 }
 #main-menu-2 {
-    margin: 0px 0px var(--marginX) var(--marginX);
-    border-top: 1px solid transparent;
+  margin: 0px 0px var(--marginX) var(--marginX);
+  border-top: 1px solid transparent;
 }
 #main-menu-1 li,
 #main-menu-2 li,
 #work-list li {
-    font-family: var(--sansSerifFont);
-    font-style: normal;
-    letter-spacing: var(--letterSpacing);
-    list-style-type: none;
+  font-family: var(--sansSerifFont);
+  font-style: normal;
+  letter-spacing: var(--letterSpacing);
+  list-style-type: none;
 }
 #main-menu-1 li,
 #main-menu-2 li {
-    font-size: 116px;
-    font-weight: 800;
-    line-height: 140px;
-    text-transform: uppercase;
-    width: fit-content;
+  font-size: 116px;
+  font-weight: 800;
+  line-height: 140px;
+  text-transform: uppercase;
+  width: fit-content;
 }
 #main-menu-1 li:hover,
 #main-menu-2 li:hover {
-    color: var(--accentColor);
-    font-family: var(--serifFont);
-    font-weight: 700;
-    font-style: italic;
+  color: var(--accentColor);
+  font-family: var(--serifFont);
+  font-weight: 700;
+  font-style: italic;
 }
 #work-list {
-    grid-row: 2;
-    grid-column: 2;
-    border-top: 1px solid var(--textColor);
-    margin: 0px var(--marginX) 100px 0px;
-    padding-top: 1rem;
-    visibility: hidden;
-    width: fit-content;
+  grid-row: 2;
+  grid-column: 2;
+  border-top: 1px solid var(--textColor);
+  margin: 0px var(--marginX) 100px 0px;
+  padding-top: 1rem;
+  visibility: hidden;
+  width: fit-content;
 }
 #work-list li {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 150%; /* 48px */
-    text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  text-transform: capitalize;
 }
 
 /* home page stuff */
 #intro {
-    height: 100%;
+  height: 100%;
 }
 #intro-contents {
-    top: var(--mainMarginY);
-    position: sticky;
-    border-right: 1px solid var(--textColor);
-    padding-right: var(--hrGap);
+  top: var(--mainMarginY);
+  position: sticky;
+  border-right: 1px solid var(--textColor);
+  padding-right: var(--hrGap);
 }
 #intro-contents h1 {
-    line-height: 96px;
+  line-height: 96px;
 }
 #intro-contents h1 span {
-    line-height: normal;
+  line-height: normal;
 }
 #work-gallery h1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 #work-gallery article {
-    margin-bottom: var(--bottomMargin);
+  margin-bottom: var(--bottomMargin);
 }
 #work-gallery article:last-child,
 #project-contents article:last-child,
 #play-gallery article:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .gallery-img {
-    max-width: 715px;
-    max-height: 400px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    overflow: hidden;
+  max-width: 715px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  overflow: hidden;
 }
 
 /* about page stuff */
 #about {
-    overflow: hidden;
+  overflow: hidden;
 }
 #about main {
-    display: grid;
-    grid: 1fr/ 1fr 1fr;
+  display: grid;
+  grid: 1fr/ 1fr 1fr;
 }
 #about-text {
-    padding: 30px var(--hrGap) 30px 0;
-    border-right: 1px solid var(--textColor);
+  padding: 30px var(--hrGap) 30px 0;
+  border-right: 1px solid var(--textColor);
 }
 #resume-btn a:link,
 #resume-btn a:visited {
-    color: var(--accentColor);
-    font-size: 32px;
-    font-weight: 800;
-    text-transform: uppercase;
-    background-color: var(--whiteColor);
-    border-radius: 50px;
-    border: 2px solid var(--accentColor);
-    display: inline;
-    padding: 10px 20px;
-    margin-top: 30px;
+  color: var(--accentColor);
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: var(--whiteColor);
+  border-radius: 50px;
+  border: 2px solid var(--accentColor);
+  display: inline;
+  padding: 10px 20px;
+  margin-top: 30px;
 }
 #resume-btn a:hover,
 #resume-btn a:active {
-    color: var(--whiteColor);
-    background-color: var(--accentColor);
+  color: var(--whiteColor);
+  background-color: var(--accentColor);
 }
 #profile-pic-container {
-    margin: 30px 0px 0px var(--hrGap);
+  margin: 30px 0px 0px var(--hrGap);
 }
 #profile-pic {
-    max-width: 500px;
-    max-height: 500px;
-    object-fit: cover;
-    object-position: 50% 50%;
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 /* project page stuff */
 .project-page figure {
-    margin: 25px 0px;
+  margin: 25px 0px;
 }
 #project-hero {
-    margin-bottom: var(--bottomMargin);
+  margin-bottom: var(--bottomMargin);
 }
 #project-hero figure {
-    width: 100%;
-    margin-top: 0px; /* FULL BLEED */
+  width: 100%;
+  margin-top: 0px; /* FULL BLEED */
 }
 #project-hero figure img {
-    width: 1240px;
-    height: 600px; /* WAS PREVIOUSLY 557px AS PER FIGMA */
-    object-fit: cover;
-    /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-    /* CHANGE IN INDIVIDUAL PROJECT FILES FOR EACH HERO IMG IF NEEDED */
-    object-position: 50% 45%;
-    overflow: hidden;
+  width: 1240px;
+  height: 600px; /* WAS PREVIOUSLY 557px AS PER FIGMA */
+  object-fit: cover;
+  /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+  /* CHANGE IN INDIVIDUAL PROJECT FILES FOR EACH HERO IMG IF NEEDED */
+  object-position: 50% 45%;
+  overflow: hidden;
 }
 #project-description {
-    display: grid;
-    grid: 1fr/ 0.6fr 0.04fr 0.36fr;
+  display: grid;
+  grid: 1fr/ 0.6fr 0.04fr 0.36fr;
 }
 #project-specs {
-    grid-column: 3;
+  grid-column: 3;
 }
 #project-specs b {
-    font-weight: 600;
+  font-weight: 600;
 }
 #project-container {
-    display: grid;
-    grid: 1fr/0.25fr 0.75fr;
+  display: grid;
+  grid: 1fr/0.25fr 0.75fr;
 }
 #toc {
-    position: sticky;
-    top: var(--mainMarginY);
-    /* border-right: 1px solid var(--textColor); */
+  position: sticky;
+  top: var(--mainMarginY);
+  /* border-right: 1px solid var(--textColor); */
 }
 #toc li,
 #play-list li {
-    list-style-type: none;
-    font-family: var(--sansSerifFont);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    margin-bottom: 25px;
-    letter-spacing: var(--letterSpacing);
-    text-transform: uppercase;
+  list-style-type: none;
+  font-family: var(--sansSerifFont);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: var(--letterSpacing);
+  text-transform: uppercase;
 }
 #project-contents,
 #play-gallery {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 #project-contents article,
 #play-gallery article {
-    margin-bottom: var(--bottomMargin);
+  margin-bottom: var(--bottomMargin);
 }
 #project-contents ol li {
-    color: var(--textColor);
-    font-family: var(--sansSerifFont);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 22.5px */
-    letter-spacing: var(--letterSpacing);
-    margin: 1em;
+  color: var(--textColor);
+  font-family: var(--sansSerifFont);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+  letter-spacing: var(--letterSpacing);
+  margin: 1em;
 }
 
 /* play page stuff */
 #play main {
-    display: grid;
-    grid: 1fr / 0.25fr 0.75fr;
+  display: grid;
+  grid: 1fr / 0.25fr 0.75fr;
 }
 #play-list {
-    position: sticky;
-    top: var(--mainMarginY);
-    /* border-right: 1px solid var(--textColor); */
-    margin-right: 20px;
+  position: sticky;
+  top: var(--mainMarginY);
+  /* border-right: 1px solid var(--textColor); */
+  margin-right: 20px;
 }
 
 /* variables, basically */
 :root {
-    --serifFont: Canela;
-    --sansSerifFont: PP Mori;
-    --playFont: PP Neue Machina;
-    --letterSpacing: -0.446px;
-    --whiteColor: white;
-    --blackColor: black;
-    --textColor: black;
-    --accentColor: #4f2df2;
-    --marginX: 100px;
-    --navMarginY: 50px;
-    --mainMarginY: 110px;
-    --bottomMargin: 110px;
-    --hrGap: 60px;
+  --serifFont: Canela;
+  --sansSerifFont: PP Mori;
+  --playFont: PP Neue Machina;
+  --letterSpacing: -0.446px;
+  --whiteColor: white;
+  --blackColor: black;
+  --textColor: black;
+  --accentColor: #4f2df2;
+  --marginX: 100px;
+  --navMarginY: 50px;
+  --mainMarginY: 110px;
+  --bottomMargin: 110px;
+  --hrGap: 60px;
 }
