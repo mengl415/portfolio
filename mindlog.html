@@ -16,19 +16,23 @@
 
     <style>
         #project-name h2 {
-            width: 60%;
+            max-width: 400px;
         }
-        #project-hero figure {
-            /* ADJUSTMENTS MADE FOR THE WHITE BG */
-            margin-top: 40px;
-            margin-bottom: -30px;
+        @media only screen and (min-width: 431px) {
+            #project-hero figure {
+                /* ADJUSTMENTS MADE FOR THE WHITE BG */
+                margin-top: 40px;
+                margin-bottom: -30px;
+            }
         }
     </style>
 
     <body id="mindlog" class="project-page">
         <header>
             <nav>
-                <a class="nav-btn" href="./index.html">lily meng</a>
+                <a class="nav-btn" href="./index.html">
+                    lily <span class="mobile-hidden">meng</span>
+                </a>
                 <a class="nav-btn" href="./play.html" id="play-btn">play</a>
                 <button id="menu-btn" onclick="toggleMenu()">menu</button>
             </nav>
@@ -37,6 +41,17 @@
             <menu id="main-menu-1">
                 <li><a href="./index.html">home</a></li>
                 <li id="work-btn">work</li>
+            </menu>
+            <menu id="work-list">
+                <li><a href="./mindlog.html">MindLog</a></li>
+                <li><a href="./juicycouture.html">juicy couture</a></li>
+                <li><a href="./jj-signage.html">J&J digital signage</a></li>
+                <li>
+                    <a href="./kurt-vonnegut-museum.html"
+                        >kurt vonnegut museum</a
+                    >
+                </li>
+                <li><a href="./shedd.html">shedd aquarium</a></li>
             </menu>
             <menu id="main-menu-2">
                 <li><a href="./about.html">about</a></li>
@@ -49,17 +64,6 @@
                         resume
                     </a>
                 </li>
-            </menu>
-            <menu id="work-list">
-                <li><a href="./mindlog.html">MindLog</a></li>
-                <li><a href="./juicycouture.html">juicy couture</a></li>
-                <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                <li>
-                    <a href="./kurt-vonnegut-museum.html"
-                        >kurt vonnegut museum</a
-                    >
-                </li>
-                <li><a href="./shedd.html">shedd aquarium</a></li>
             </menu>
         </div>
         <main>
@@ -83,8 +87,9 @@
                     </div>
                 </div>
             </section>
+            <hr class="mobile-visible" />
             <section id="project-container">
-                <section id="toc-container">
+                <section id="toc-container" class="mobile-hidden">
                     <ul id="toc">
                         <li><a href="#problem">problem</a></li>
                         <li><a href="#research">research</a></li>

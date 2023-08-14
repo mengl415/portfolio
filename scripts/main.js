@@ -12,7 +12,7 @@ function toggleMenu() {
         menuContainer.style.top = "-100vh";
         menuBtn.style.backgroundColor = "var(--whiteColor)";
         menuBtn.style.color = "var(--textColor)";
-        workList.style.visibility = "hidden";
+        workList.style.display = "none";
         mainMenu2.style.borderTop = "none";
         workOpen = false;
     } else if (!menuOpen) {
@@ -26,11 +26,15 @@ function toggleMenu() {
 workBtn.addEventListener("click", toggleWork);
 function toggleWork() {
     if (workOpen) {
-        workList.style.visibility = "hidden";
-        mainMenu2.style.borderTop = "1px solid transparent";
+        workList.style.display = "block";
+        if (window.innerWidth > "430") {
+            mainMenu2.style.borderTop = "1px solid transparent";
+        }
     } else if (!workOpen) {
-        workList.style.visibility = "visible";
-        mainMenu2.style.borderTop = "1px solid var(--textColor)";
+        workList.style.display = "none";
+        if (window.innerWidth > "430") {
+            mainMenu2.style.borderTop = "1px solid var(--textColor)";
+        }
     }
     workOpen = !workOpen;
 }
