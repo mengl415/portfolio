@@ -51,9 +51,13 @@
     font-family: PP Neue Machina;
     src: url(../assets/fonts/PPNeueMachina-InktrapUltrabold.otf);
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
 }
 
+html {
+    scrollbar-gutter: stable;
+    overflow: auto;
+}
 /* reset */
 * {
     margin: 0;
@@ -147,10 +151,12 @@ a:active {
     margin-bottom: 25px;
 }
 
-body,
-#menu-container {
-    background-image: url(../assets/gradientBG.png);
+body {
     background-attachment: fixed;
+}
+body,
+#menu-cover {
+    background-image: url(../assets/gradientBG.png);
     background-size: cover;
     background-position: 50%;
 }
@@ -159,12 +165,14 @@ body,
     background-color: var(--whiteColor);
 }
 main {
+    scrollbar-gutter: stable;
     margin: var(--mainMarginY) auto;
     padding: 0px var(--marginX);
     max-width: 1440px;
     /* background-color: red; */
 }
 #home main {
+    scrollbar-gutter: stable;
     display: grid;
     grid: 1fr/ 0.4fr 0.6fr;
     gap: var(--hrGap);
@@ -180,14 +188,17 @@ header,
 footer {
     position: fixed;
     /* width: calc(100% - var(--marginX) * 2); */
-    width: 100vw;
+    width: 100%;
     z-index: 3;
 }
 nav {
-    max-width: 1440px;
     margin: var(--navMarginY) auto;
     padding: 0px var(--marginX);
+    max-width: 1440px;
     display: flex;
+}
+nav :last-child {
+    margin-left: auto;
 }
 
 footer {
@@ -195,6 +206,7 @@ footer {
     /* margin: 0px var(--marginX) var(--navMarginY) var(--marginX); */
 }
 footer div {
+    scrollbar-gutter: stable;
     max-width: 1440px;
     margin: var(--navMarginY) auto;
     padding: 0px var(--marginX);
@@ -206,6 +218,7 @@ img {
 }
 button,
 .nav-btn {
+    scrollbar-gutter: stable;
     background-color: var(--whiteColor);
     color: var(--textColor);
     padding: 4px 9px 3px 9px;
@@ -259,21 +272,15 @@ hr {
 #work-btn:active {
     cursor: pointer;
 }
-#menu-container {
+#menu-cover {
     position: fixed;
     top: -100vh;
     width: 100vw;
     height: 100vh;
     z-index: 2;
-    /* margin: var(--marginX); */
     transition: top 1s;
 }
-#main-menu-1 {
-    margin: var(--marginX) 0px 0px var(--marginX);
-    /* background-color: red; */
-}
 #main-menu-2 {
-    margin: 0px 0px var(--marginX) var(--marginX);
     border-top: 1px solid transparent;
 }
 #main-menu-1 li,
@@ -435,21 +442,21 @@ hr {
     --bottomMargin: 110px;
     --hrGap: 60px;
     --mobileMarginX: 20px;
-    --mobileBottomMargin: 50px;
 }
 
 /* not mobile only */
-@media only screen and (min-width: 431px) {
+@media only screen and (min-width: 835px) {
     .mobile-visible {
         display: none;
     }
-    nav :last-child {
-        margin-left: auto;
-    }
+
     #menu-container {
         display: grid;
         grid: 0.4fr 0.6fr / 0.5fr 0.5fr;
         grid-auto-flow: column;
+        max-width: 1440px;
+        margin: var(--marginX) auto;
+        padding: 0px var(--mainMarginY);
     }
     #main-menu-1 li:hover,
     #main-menu-2 li:hover,
@@ -522,6 +529,41 @@ hr {
     }
 }
 
+/* tablet */
+@media only screen and (max-width: 834px) {
+    .tablet-hidden {
+        display: none;
+    }
+    #intro hr {
+        margin: 50px 0px;
+    }
+    #menu-container {
+        margin: var(--marginX) auto;
+        padding: 0px var(--mainMarginY);
+    }
+    #work-list {
+        margin: 0px 60px;
+    }
+    #home main {
+        display: block;
+    }
+    #profile-pic-container {
+        margin: 50px auto;
+    }
+
+    #project-hero figure {
+        width: 100%;
+        margin-top: var(--mainMarginY);
+    }
+    #project-hero figure img {
+        max-height: 400px;
+        object-position: 50% 50%;
+    }
+    :root {
+        --bottomMargin: 75px;
+    }
+}
+
 /* mobile only */
 @media only screen and (max-width: 430px) {
     .mobile-hidden {
@@ -542,27 +584,22 @@ hr {
         font-size: 16px;
         margin: 20px 0px;
     }
-    #home main {
-        display: block;
-    }
-    nav {
-        margin: var(--mobileMarginX);
-        justify-content: space-between;
-    }
+
+    nav,
     footer div {
         margin: var(--mobileMarginX);
+        padding: 0px;
+        justify-content: space-between;
+    }
+    nav :last-child {
+        margin-left: 0px;
     }
     hr {
-        margin: 20px 0px var(--mobileBottomMargin) 0px;
+        margin: 20px 0px var(--bottomMargin) 0px;
     }
     #menu-container {
-        display: block;
-    }
-    #main-menu-1 {
-        margin: var(--marginX) 0px 0px var(--mobileMarginX);
-    }
-    #main-menu-2 {
-        margin: 0px 0px var(--mobileMarginX) var(--mobileMarginX);
+        margin: var(--marginX) auto;
+        padding: 0px var(--mobileMarginX);
     }
     #main-menu-1 li,
     #main-menu-2 li {
@@ -574,9 +611,7 @@ hr {
         font-weight: 700;
         font-style: italic;
     }
-    #work-list {
-        margin: 0px 60px;
-    }
+
     #work-list li {
         font-size: 24px;
         line-height: 175%; /* 42px */
@@ -588,10 +623,7 @@ hr {
         margin: 80px 0px 85px 0px;
     }
     #work-gallery h1 {
-        margin-bottom: var(--mobileBottomMargin);
-    }
-    #work-gallery article {
-        margin-bottom: var(--mobileBottomMargin);
+        margin-bottom: var(--bottomMargin);
     }
     #work-gallery article figure {
         width: 100vw;
@@ -644,9 +676,6 @@ hr {
     .project-page figure {
         margin: var(--mobileMarginX) 0px;
     }
-    #project-hero {
-        margin-bottom: var(--mobileBottomMargin);
-    }
     #project-hero figure {
         width: 100%;
         margin-top: 80px;
@@ -658,11 +687,16 @@ hr {
     #project-specs {
         margin-top: 10px;
     }
-    #project-contents article,
-    #play-gallery article {
-        margin-bottom: var(--mobileBottomMargin);
-    }
     #project-contents ol li {
         font-size: 16px;
+    }
+    #play main {
+        display: block;
+    }
+    #play-list-container {
+        display: none;
+    }
+    :root {
+        --bottomMargin: 50px;
     }
 }
