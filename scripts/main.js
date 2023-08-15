@@ -26,14 +26,20 @@ function toggleMenu() {
 workBtn.addEventListener("click", toggleWork);
 function toggleWork() {
     if (workOpen) {
-        workList.style.display = "block";
-        if (window.innerWidth > "430") {
-            mainMenu2.style.borderTop = "1px solid transparent";
-        }
-    } else if (!workOpen) {
         workList.style.display = "none";
         if (window.innerWidth > "430") {
+            mainMenu2.style.borderTop = "1px solid transparent";
+        } else {
+            workBtn.classList.remove("main-menu-open");
+            workBtn.style.fontFamily = "var(--sansSerifFont)";
+        }
+    } else if (!workOpen) {
+        workList.style.display = "block";
+        if (window.innerWidth > "430") {
             mainMenu2.style.borderTop = "1px solid var(--textColor)";
+        } else {
+            workBtn.classList.add("main-menu-open");
+            workBtn.style.fontFamily = "var(--serifFont)";
         }
     }
     workOpen = !workOpen;
