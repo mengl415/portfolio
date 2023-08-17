@@ -1,318 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="./assets/Favicon.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <meta name="description" content="Welcome!" />
-        <meta name="author" content="Lily Meng" />
-        <title>Lily Meng | MindLog</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | MindLog</title>
+  </head>
 
-    <style>
-        #project-name h2 {
-            max-width: 400px;
-        }
-        @media only screen and (min-width: 835px) {
-            #project-hero figure {
-                /* ADJUSTMENTS MADE FOR THE WHITE BG */
-                margin-top: 40px;
-                margin-bottom: -30px;
-            }
-        }
-    </style>
+  <style>
+    #project-name h2 {
+      max-width: 400px;
+    }
+    @media only screen and (min-width: 835px) {
+      #project-hero figure {
+        /* ADJUSTMENTS MADE FOR THE WHITE BG */
+        margin-top: 40px;
+        margin-bottom: -30px;
+      }
+    }
+  </style>
 
-    <body id="mindlog" class="project-page">
-        <header>
-            <nav>
-                <a class="nav-btn" href="./index.html">
-                    lily <span class="mobile-hidden">meng</span>
-                </a>
-                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
-                <button id="menu-btn" onclick="toggleMenu()">menu</button>
-            </nav>
-        </header>
-        <div id="menu-cover">
-            <div id="menu-container">
-                <menu id="main-menu-1">
-                    <li><a href="./index.html">home</a></li>
-                    <li id="work-btn">work</li>
-                </menu>
-                <menu id="work-list">
-                    <li><a href="./mindlog.html">MindLog</a></li>
-                    <li><a href="./juicycouture.html">juicy couture</a></li>
-                    <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                    <li>
-                        <a href="./kurt-vonnegut-museum.html"
-                            >kurt vonnegut museum</a
-                        >
-                    </li>
-                    <li><a href="./shedd.html">shedd aquarium</a></li>
-                </menu>
-                <menu id="main-menu-2">
-                    <li><a href="./about.html">about</a></li>
-                    <li>
-                        <a href="./assets/Lily_Meng_Resume.pdf" download="">
-                            resume
-                        </a>
-                    </li>
-                </menu>
-            </div>
+  <body id="mindlog" class="project-page">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">
+          lily <span class="mobile-hidden">meng</span>
+        </a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-cover">
+      <div id="menu-container">
+        <menu id="main-menu-1">
+          <li><a href="./index.html">home</a></li>
+          <li id="work-btn">work</li>
+        </menu>
+        <menu id="work-list">
+          <li><a href="./mindlog.html">MindLog</a></li>
+          <li><a href="./juicycouture.html">juicy couture</a></li>
+          <li><a href="./jj-signage.html">J&J digital signage</a></li>
+          <li>
+            <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+          </li>
+          <li><a href="./shedd.html">shedd aquarium</a></li>
+        </menu>
+        <menu id="main-menu-2">
+          <li><a href="./about.html">about</a></li>
+          <li>
+            <a href="./assets/Lily_Meng_Resume.pdf" download=""> resume </a>
+          </li>
+        </menu>
+      </div>
+    </div>
+    <main>
+      <section id="project-hero">
+        <figure>
+          <img src="./assets/MindLog/ml5Screens.jpg" />
+        </figure>
+        <div id="project-description">
+          <div id="project-name">
+            <h1 id="project-title">MindLog</h1>
+            <h2>An app that lets you help yourself.</h2>
+          </div>
+          <div id="project-specs">
+            <h3>Class: <b>Senior Thesis</b></h3>
+            <h3>Timeline: <b>8 weeks</b></h3>
+            <h3>
+              Role:
+              <b>Solo UI/UX Designer & Researcher</b>
+            </h3>
+            <h3>Tools: <b>Figma</b></h3>
+          </div>
         </div>
-        <main>
-            <section id="project-hero">
-                <figure>
-                    <img src="./assets/MindLog/ml5Screens.jpg" />
-                </figure>
-                <div id="project-description">
-                    <div id="project-name">
-                        <h1 id="project-title">MindLog</h1>
-                        <h2>An app that lets you help yourself.</h2>
-                    </div>
-                    <div id="project-specs">
-                        <h3>Class: <b>Senior Thesis</b></h3>
-                        <h3>Timeline: <b>8 weeks</b></h3>
-                        <h3>
-                            Role:
-                            <b>Solo UI/UX Designer & Researcher</b>
-                        </h3>
-                        <h3>Tools: <b>Figma</b></h3>
-                    </div>
-                </div>
-            </section>
-            <hr class="mobile-visible" />
-            <section id="project-container">
-                <section id="toc-container" class="tablet-hidden">
-                    <ul id="toc">
-                        <li><a href="#problem">problem</a></li>
-                        <li><a href="#research">research</a></li>
-                        <li>
-                            <a href="#insights-opportunities">
-                                insights & opportunities
-                            </a>
-                        </li>
-                        <li><a href="#solution">solution</a></li>
-                        <li><a href="#archetypes">user archetypes</a></li>
-                        <li><a href="#design-process">design process</a></li>
-                        <li><a href="#final-screens">final screens</a></li>
-                        <li><a href="#design-system">design system</a></li>
-                        <li><a href="#reflection">reflection</a></li>
-                    </ul>
-                </section>
-                <section id="project-contents">
-                    <article id="problem">
-                        <h4>problem</h4>
-                        <h2>
-                            Young adults acknowledge their mental health issues
-                            but lack sustainable and accessible methods of
-                            tackling them.
-                        </h2>
-                        <p>
-                            The topic of mental health is less stigmatized in
-                            the current generation of young adults, but many of
-                            us grapple with factors like cost, time, and
-                            resources to engage with our own mental health in
-                            meaningful and effective ways. How can we change
-                            this?
-                        </p>
-                    </article>
-                    <article id="research">
-                        <h4>research</h4>
-                        <h2>Research Objectives</h2>
-                        <ol>
-                            <li>
-                                Investigate young adults’ attitudes toward
-                                mental health and how they talk about it.
-                            </li>
-                            <li>
-                                Investigate ways young adults care for their own
-                                mental health.
-                            </li>
-                            <li>
-                                Understand factors that inhibit young adults
-                                from seeking mental health care.
-                            </li>
-                            <li>
-                                Understand how inadequate mental health care
-                                affects young adults.
-                            </li>
-                            <li>
-                                Investigate the physical and virtual spaces
-                                young adults discuss mental health in.
-                            </li>
-                        </ol>
-                    </article>
-                    <article>
-                        <h4>desk research</h4>
-                        <h2>
-                            Perceived stress in stress-inducing experiences is a
-                            major factor in low mental health.
-                        </h2>
-                        <p>
-                            I began with desk research, and this important and
-                            surprising slap stat stuck out to me. Perceived
-                            stress includes all aspects of external sources of
-                            stress relevant to an individual rather than the
-                            source of stress by itself. In other words, it’s the
-                            individual’s feelings on how much stress they’re
-                            experiencing from a single source.
-                        </p>
-                    </article>
-                    <article>
-                        <h4>User Interviews & Survey</h4>
-                        <p>
-                            From my user interviews in my target demographic
-                            (18-35 years old), I combined my findings with my
-                            desk research to affinity map and synthesize them.
-                        </p>
-                        <figure>
-                            <img src="./assets/MindLog/mlInsights.svg" />
-                        </figure>
-                    </article>
-                    <article id="insights-opportunities">
-                        <h4>insights & opportunities</h4>
-                        <p>
-                            Through synthesizing and analyzing my research, I
-                            was able to pinpoint three major insights and draw
-                            subsequent areas of opportunity from them.
-                        </p>
-                        <figure>
-                            <img src="./assets/MindLog/mlOpps.svg" />
-                        </figure>
-                    </article>
-                    <article id="solution">
-                        <h4>solution</h4>
-                        <h2>
-                            Create a routine of personal, meaningful reflection
-                            over time.
-                        </h2>
-                        <p>
-                            By engaging individuals in consistent meaningful
-                            self-reflection, they’ll eventually build resilience
-                            in working through stress, anxiety, and other
-                            negative impacts. As a result, when stressful
-                            situations occur, individuals will have a greater
-                            sense of control over their selves and mental state.
-                        </p>
-                    </article>
-                    <article id="archetypes">
-                        <h4>user archetypes</h4>
-                        <p>
-                            I created user archetypes based on the user behavior
-                            and preferences I gathered from my research. I
-                            specifically chose to create archetypes rather than
-                            personas because I wanted to focus more specifically
-                            on users’ needs and how to target those needs and
-                            felt other descriptive information in this case was
-                            irrelevant, as I already had a target demographic
-                            established.
-                        </p>
-                        <figure>
-                            <img src="./assets/MindLog/mlArchetype1.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlArchetype2.svg" />
-                        </figure>
-                    </article>
-                    <article id="design-process">
-                        <h4>design process</h4>
-                        <p>
-                            I created user archetypes based on the user behavior
-                            and preferences I gathered from my research. I
-                            specifically chose to create archetypes rather than
-                            personas because I wanted to focus more specifically
-                            on users’ needs and how to target those needs and
-                            felt other descriptive information in this case was
-                            irrelevant, as I already had a target demographic
-                            established.
-                        </p>
-                        <figure>
-                            <img src="./assets/MindLog/mlSketches.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlProcess1.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlProcess2.svg" />
-                        </figure>
-                    </article>
-                    <article id="final-screens">
-                        <h4>final screens</h4>
-                        <p>
-                            <a
-                                href="https://www.figma.com/proto/TCa79914U1Zet24FTBEjnW/Thesis.MindLog.PUBLIC?page-id=248%3A110&type=design&node-id=927-7295&viewport=-990%2C634%2C0.06&t=Tqf2S6nKYrDJAGqF-1&scaling=scale-down&starting-point-node-id=927%3A7295&mode=design"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View the Figma prototype here!
-                            </a>
-                        </p>
-                        <figure>
-                            <img src="./assets/MindLog/ml5Screens.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlPointEdit.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlSuggested.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/MindLog/mlAnalysis.svg" />
-                        </figure>
-                    </article>
-                    <article id="design-system">
-                        <h4>design system</h4>
-                        <figure>
-                            <img src="./assets/MindLog/mlDesignSystem.svg" />
-                        </figure>
-                    </article>
-                    <article id="reflection">
-                        <h4>reflection</h4>
-                        <p>
-                            I discovered that even though I would plan each step
-                            in a timeline, there would often be points where I
-                            would have to retrace my steps to conduct further
-                            research or devote more time to iterating a certain
-                            function or feature. Since I'm also usually a big
-                            picture thinker, this project was an exercise and
-                            challenge in being detail-oriented, which ended up
-                            helping with big picture thinking in the long run.
-                        </p>
-                        <p>
-                            If I were to continue this further, I would like to
-                            prototype it more thoroughly and user test it with
-                            more people, especially therapists and other
-                            professionals in the mental health field. An initial
-                            opportunity I wanted to explore but did not manage
-                            to build out via research was how well MindLog would
-                            be able to supplement therapists' work, for example
-                            in supporting their findings or helping their
-                            patients establish or change specific behaviors.
-                        </p>
-                    </article>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
-                    email
-                </a>
-                <a
-                    class="nav-btn"
-                    href="https://www.linkedin.com/in/lilymeng17/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    linkedin
-                </a>
-            </div>
-        </footer>
-    </body>
-    <script src="./scripts/main.js"></script>
+      </section>
+      <hr class="mobile-visible" />
+      <section id="project-container">
+        <section id="toc-container" class="tablet-hidden">
+          <ul id="toc">
+            <li><a href="#problem">problem</a></li>
+            <li><a href="#research">research</a></li>
+            <li>
+              <a href="#insights-opportunities"> insights & opportunities </a>
+            </li>
+            <li><a href="#solution">solution</a></li>
+            <li><a href="#archetypes">user archetypes</a></li>
+            <li><a href="#design-process">design process</a></li>
+            <li><a href="#final-screens">final screens</a></li>
+            <li><a href="#design-system">design system</a></li>
+            <li><a href="#reflection">reflection</a></li>
+          </ul>
+        </section>
+        <section id="project-contents">
+          <article id="problem">
+            <h4>problem</h4>
+            <h2>
+              Young adults acknowledge their mental health issues but lack
+              sustainable and accessible methods of tackling them.
+            </h2>
+            <p>
+              The topic of mental health is less stigmatized in the current
+              generation of young adults, but many of us grapple with factors
+              like cost, time, and resources to engage with our own mental
+              health in meaningful and effective ways. How can we change this?
+            </p>
+          </article>
+          <article id="research">
+            <h4>research</h4>
+            <h2>Research Objectives</h2>
+            <ol>
+              <li>
+                Investigate young adults’ attitudes toward mental health and how
+                they talk about it.
+              </li>
+              <li>
+                Investigate ways young adults care for their own mental health.
+              </li>
+              <li>
+                Understand factors that inhibit young adults from seeking mental
+                health care.
+              </li>
+              <li>
+                Understand how inadequate mental health care affects young
+                adults.
+              </li>
+              <li>
+                Investigate the physical and virtual spaces young adults discuss
+                mental health in.
+              </li>
+            </ol>
+          </article>
+          <article>
+            <h4>desk research</h4>
+            <h2>
+              Perceived stress in stress-inducing experiences is a major factor
+              in low mental health.
+            </h2>
+            <p>
+              I began with desk research, and this important and surprising slap
+              stat stuck out to me. Perceived stress includes all aspects of
+              external sources of stress relevant to an individual rather than
+              the source of stress by itself. In other words, it’s the
+              individual’s feelings on how much stress they’re experiencing from
+              a single source.
+            </p>
+          </article>
+          <article>
+            <h4>User Interviews & Survey</h4>
+            <p>
+              From my user interviews in my target demographic (18-35 years
+              old), I combined my findings with my desk research to affinity map
+              and synthesize them.
+            </p>
+            <figure>
+              <img src="./assets/MindLog/mlInsights.svg" />
+            </figure>
+          </article>
+          <article id="insights-opportunities">
+            <h4>insights & opportunities</h4>
+            <p>
+              Through synthesizing and analyzing my research, I was able to
+              pinpoint three major insights and draw subsequent areas of
+              opportunity from them.
+            </p>
+            <figure>
+              <img src="./assets/MindLog/mlOpps.svg" />
+            </figure>
+          </article>
+          <article id="solution">
+            <h4>solution</h4>
+            <h2>
+              Create a routine of personal, meaningful reflection over time.
+            </h2>
+            <p>
+              By engaging individuals in consistent meaningful self-reflection,
+              they’ll eventually build resilience in working through stress,
+              anxiety, and other negative impacts. As a result, when stressful
+              situations occur, individuals will have a greater sense of control
+              over their selves and mental state.
+            </p>
+          </article>
+          <article id="archetypes">
+            <h4>user archetypes</h4>
+            <p>
+              I created user archetypes based on the user behavior and
+              preferences I gathered from my research. I specifically chose to
+              create archetypes rather than personas because I wanted to focus
+              more specifically on users’ needs and how to target those needs
+              and felt other descriptive information in this case was
+              irrelevant, as I already had a target demographic established.
+            </p>
+            <figure>
+              <img src="./assets/MindLog/mlArchetype1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlArchetype2.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/userJourney.svg" />
+            </figure>
+          </article>
+          <article id="design-process">
+            <h4>design process</h4>
+            <p>
+              I created user archetypes based on the user behavior and
+              preferences I gathered from my research. I specifically chose to
+              create archetypes rather than personas because I wanted to focus
+              more specifically on users’ needs and how to target those needs
+              and felt other descriptive information in this case was
+              irrelevant, as I already had a target demographic established.
+            </p>
+            <figure>
+              <img src="./assets/MindLog/mlSketches.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlProcess1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlProcess2.svg" />
+            </figure>
+          </article>
+          <article id="final-screens">
+            <h4>final screens</h4>
+            <p>
+              <a
+                href="https://www.figma.com/proto/TCa79914U1Zet24FTBEjnW/Thesis.MindLog.PUBLIC?page-id=248%3A110&type=design&node-id=927-7295&viewport=-990%2C634%2C0.06&t=Tqf2S6nKYrDJAGqF-1&scaling=scale-down&starting-point-node-id=927%3A7295&mode=design"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View the Figma prototype here!
+              </a>
+            </p>
+            <figure>
+              <img src="./assets/MindLog/ml5Screens.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlPointEdit.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlSuggested.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/MindLog/mlAnalysis.svg" />
+            </figure>
+          </article>
+          <article id="design-system">
+            <h4>design system</h4>
+            <figure>
+              <img src="./assets/MindLog/mlDesignSystem.svg" />
+            </figure>
+          </article>
+          <article id="reflection">
+            <h4>reflection</h4>
+            <p>
+              I discovered that even though I would plan each step in a
+              timeline, there would often be points where I would have to
+              retrace my steps to conduct further research or devote more time
+              to iterating a certain function or feature. Since I'm also usually
+              a big picture thinker, this project was an exercise and challenge
+              in being detail-oriented, which ended up helping with big picture
+              thinking in the long run.
+            </p>
+            <p>
+              If I were to continue this further, I would like to prototype it
+              more thoroughly and user test it with more people, especially
+              therapists and other professionals in the mental health field. An
+              initial opportunity I wanted to explore but did not manage to
+              build out via research was how well MindLog would be able to
+              supplement therapists' work, for example in supporting their
+              findings or helping their patients establish or change specific
+              behaviors.
+            </p>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
 </html>
