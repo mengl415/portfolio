@@ -1,209 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="./assets/Favicon.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <meta name="description" content="Welcome!" />
-        <meta name="author" content="Lily Meng" />
-        <title>Lily Meng | Persona 5 Wikibook</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | Persona 5 Wikibook</title>
+  </head>
 
-    <style>
-        #project-hero figure img {
-            /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-            /* object-position: 50% 45%; */
-        }
-        /* IF CENTERING DIFFERENT FOR MOBILE, PUT IN MEDIA QUERY*/
-        @media only screen and (max-width: 430px) {
-            #project-hero figure img {
-                /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-                /* object-position: 50% 50%; */
-            }
-        }
-    </style>
+  <style>
+    #project-hero figure img {
+      /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+      /* object-position: 50% 45%; */
+    }
+    /* IF CENTERING DIFFERENT FOR MOBILE, PUT IN MEDIA QUERY*/
+    @media only screen and (max-width: 430px) {
+      #project-hero figure img {
+        /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+        /* object-position: 50% 50%; */
+      }
+    }
+  </style>
 
-    <body id="persona" class="project-page">
-        <header>
-            <nav>
-                <a class="nav-btn" href="./index.html">
-                    lily <span class="mobile-hidden">meng</span>
-                </a>
-                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
-                <button id="menu-btn" onclick="toggleMenu()">menu</button>
-            </nav>
-        </header>
-        <div id="menu-cover">
-            <div id="menu-container">
-                <menu id="main-menu-1">
-                    <li><a href="./index.html">home</a></li>
-                    <li id="work-btn">work</li>
-                </menu>
-                <menu id="work-list">
-                    <li><a href="./mindlog.html">MindLog</a></li>
-                    <li><a href="./juicycouture.html">juicy couture</a></li>
-                    <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                    <li>
-                        <a href="./kurt-vonnegut-museum.html"
-                            >kurt vonnegut museum</a
-                        >
-                    </li>
-                    <li><a href="./shedd.html">shedd aquarium</a></li>
-                </menu>
-                <menu id="main-menu-2">
-                    <li><a href="./about.html">about</a></li>
-                    <li>
-                        <a href="./assets/Lily_Meng_Resume.pdf" download="">
-                            resume
-                        </a>
-                    </li>
-                </menu>
-            </div>
+  <body id="persona" class="project-page">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">
+          lily <span class="mobile-hidden">meng</span>
+        </a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-cover">
+      <div id="menu-container">
+        <menu id="main-menu-1">
+          <li><a href="./index.html">home</a></li>
+          <li id="work-btn">work</li>
+        </menu>
+        <menu id="work-list">
+          <li><a href="./mindlog.html">MindLog</a></li>
+          <li><a href="./juicycouture.html">juicy couture</a></li>
+          <li><a href="./jj-signage.html">J&J digital signage</a></li>
+          <li>
+            <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+          </li>
+          <li><a href="./shedd.html">shedd aquarium</a></li>
+        </menu>
+        <menu id="main-menu-2">
+          <li><a href="./about.html">about</a></li>
+          <li>
+            <a href="./assets/Lily_Meng_Resume.pdf" download=""> resume </a>
+          </li>
+        </menu>
+      </div>
+    </div>
+    <main>
+      <section id="project-hero">
+        <figure>
+          <img src="./assets/Persona5/spreadOverview.jpg" />
+        </figure>
+        <div id="project-description">
+          <div id="project-name">
+            <h1 id="project-title"><i>Persona 5</i> Wikibook</h1>
+          </div>
+          <div id="project-specs">
+            <h3>Class: <b>Typography Studio 1</b></h3>
+            <h3>Timeline: <b>7 weeks</b></h3>
+            <h3>
+              Role:
+              <b>Editorial Designer</b>
+            </h3>
+            <h3>
+              Tools:
+              <b> Photoshop, Illustrator, InDesign</b>
+            </h3>
+          </div>
         </div>
-        <main>
-            <section id="project-hero">
-                <figure>
-                    <img src="./assets/Persona5/spreadOverview.jpg" />
-                </figure>
-                <div id="project-description">
-                    <div id="project-name">
-                        <h1 id="project-title"><i>Persona 5</i> Wikibook</h1>
-                    </div>
-                    <div id="project-specs">
-                        <h3>Class: <b>Typography Studio 1</b></h3>
-                        <h3>Timeline: <b>7 weeks</b></h3>
-                        <h3>
-                            Role:
-                            <b>Editorial Designer</b>
-                        </h3>
-                        <h3>
-                            Tools:
-                            <b> Photoshop, Illustrator, InDesign, Figma</b>
-                        </h3>
-                    </div>
-                </div>
-            </section>
-            <hr class="mobile-visible" />
-            <section id="project-container">
-                <section id="toc-container" class="tablet-hidden">
-                    <ul id="toc">
-                        <li>
-                            <a href="#guiding-questions">guiding questions</a>
-                        </li>
-                        <li>
-                            <a href="#final-book-design">final book design</a>
-                        </li>
-                    </ul>
-                </section>
-                <section id="project-contents">
-                    <article>
-                        <h2>
-                            Translating a video game’s Wikipedia page into a
-                            cohesive print format.
-                        </h2>
-                        <p>
-                            For the final project of my Typography Studio 1
-                            class, we were tasked with turning a Wikipedia page
-                            of at least 20,000 words, along with a related
-                            interview, into a book format. My chosen page was on
-                            the video game <i>Persona 5</i>, one of my favorite
-                            video games and well-known for its stylish and
-                            graphic visuals, and I aimed to bring aspects of its
-                            design aesthetic and thematic concepts into the
-                            book.
-                        </p>
-                    </article>
-                    <article id="guiding-questions">
-                        <h4>guiding questions</h4>
-                        <p>
-                            <i>Persona 5</i>’s visual style consists of many
-                            bold, high-contrast graphics and typography, with
-                            both symbols, in-game UI, and text in an off-kilter,
-                            almost inconsistent style; the main color palette
-                            consists of black, white, and bright red, with black
-                            used as a shadow in conjunction with various
-                            textures and patterns. Thematically, the game
-                            centers on freedom and breaking free from the
-                            limitations of modern society, with the character
-                            designs based on famous historical outlaws and
-                            rebels. In order to effectively capture and convey
-                            the game’s style and themes, I created guiding
-                            questions to follow and refer back to in each
-                            iteration:
-                        </p>
-                        <ol>
-                            <li>
-                                How might <i>Persona 5</i>’s visual style and
-                                thematic concepts be incorporated into a book’s
-                                design?
-                            </li>
-                            <li>
-                                How can <i>Persona 5</i>’s origins as a Japanese
-                                role-playing-game be considered in the design?
-                            </li>
-                            <li>
-                                How can Wikipedia’s single page format be
-                                translated as a book?
-                            </li>
-                        </ol>
-                        <figure>
-                            <img src="./assets/Persona5/personaGame.jpg" />
-                        </figure>
-                    </article>
-                    <article id="final-book-design">
-                        <h4>final book design</h4>
-                        <p>
-                            In the final design, the overall system takes many
-                            inspirations from the original game. The cover is
-                            designed from a highlight in-game illustration of
-                            the protagonist, with the title of the game in
-                            English on the front cover and the title in Japanese
-                            on the back cover, a nod to how Japanese books are
-                            formatted from right to left. The main color palette
-                            follows that of the game, and for spreads like the
-                            table of contents and section dividers, the
-                            typography and page layout draws inspiration from
-                            the game’s UI elements.
-                        </p>
-                        <figure>
-                            <img src="./assets/Persona5/persona5Cover.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/Persona5/spreadOverview.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/Persona5/spreadSynopsis.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/Persona5/spreadReviews.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/Persona5/spreadImage.jpg" />
-                        </figure>
-                    </article>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
-                    email
-                </a>
-                <a
-                    class="nav-btn"
-                    href="https://www.linkedin.com/in/lilymeng17/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    linkedin
-                </a>
-            </div>
-        </footer>
-    </body>
-    <script src="./scripts/main.js"></script>
+      </section>
+      <hr class="mobile-visible" />
+      <section id="project-container">
+        <section id="toc-container" class="tablet-hidden">
+          <ul id="toc">
+            <li>
+              <a href="#guiding-questions">guiding questions</a>
+            </li>
+            <li>
+              <a href="#final-book-design">final book design</a>
+            </li>
+          </ul>
+        </section>
+        <section id="project-contents">
+          <article>
+            <h2>
+              Translating a video game’s Wikipedia page into a cohesive print
+              format.
+            </h2>
+            <p>
+              For the final project of my Typography Studio 1 class, we were
+              tasked with turning a Wikipedia page of at least 20,000 words,
+              along with a related interview, into a book format. My chosen page
+              was on the video game <i>Persona 5</i>, one of my favorite video
+              games and well-known for its stylish and graphic visuals, and I
+              aimed to bring aspects of its design aesthetic and thematic
+              concepts into the book.
+            </p>
+          </article>
+          <article id="guiding-questions">
+            <h4>guiding questions</h4>
+            <p>
+              <i>Persona 5</i>’s visual style consists of many bold,
+              high-contrast graphics and typography, with both symbols, in-game
+              UI, and text in an off-kilter, almost inconsistent style; the main
+              color palette consists of black, white, and bright red, with black
+              used as a shadow in conjunction with various textures and
+              patterns. Thematically, the game centers on freedom and breaking
+              free from the limitations of modern society, with the character
+              designs based on famous historical outlaws and rebels. In order to
+              effectively capture and convey the game’s style and themes, I
+              created guiding questions to follow and refer back to in each
+              iteration:
+            </p>
+            <ol>
+              <li>
+                How might <i>Persona 5</i>’s visual style and thematic concepts
+                be incorporated into a book’s design?
+              </li>
+              <li>
+                How can <i>Persona 5</i>’s origins as a Japanese
+                role-playing-game be considered in the design?
+              </li>
+              <li>
+                How can Wikipedia’s single page format be translated as a book?
+              </li>
+            </ol>
+            <figure>
+              <img src="./assets/Persona5/personaGame.jpg" />
+            </figure>
+          </article>
+          <article id="final-book-design">
+            <h4>final book design</h4>
+            <p>
+              In the final design, the overall system takes many inspirations
+              from the original game. The cover is designed from a highlight
+              in-game illustration of the protagonist, with the title of the
+              game in English on the front cover and the title in Japanese on
+              the back cover, a nod to how Japanese books are formatted from
+              right to left. The main color palette follows that of the game,
+              and for spreads like the table of contents and section dividers,
+              the typography and page layout draws inspiration from the game’s
+              UI elements.
+            </p>
+            <figure>
+              <img src="./assets/Persona5/persona5Cover.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/Persona5/spreadOverview.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/Persona5/spreadSynopsis.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/Persona5/spreadReviews.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/Persona5/spreadImage.jpg" />
+            </figure>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
 </html>
