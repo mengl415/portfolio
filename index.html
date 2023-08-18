@@ -1,192 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="./assets/Favicon.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <meta name="description" content="Welcome!" />
-        <meta name="author" content="Lily Meng" />
-        <title>Lily Meng | Portfolio</title>
-    </head>
-    <style>
-        #announcement {
-            position: fixed;
-            background-color: white;
-            top: 5vh;
-            left: 35vw;
-            z-index: 4;
-            padding: 0px;
-        }
-        #announcement p {
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-    <body id="home">
-        <header>
-            <nav>
-                <a class="nav-btn" href="./index.html">
-                    lily <span class="mobile-hidden">meng</span>
-                </a>
-                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
-                <button id="menu-btn" onclick="toggleMenu()">menu</button>
-            </nav>
-        </header>
-        <div id="menu-cover">
-            <div id="menu-container">
-                <menu id="main-menu-1">
-                    <li><a href="./index.html">home</a></li>
-                    <li id="work-btn">work</li>
-                </menu>
-                <menu id="work-list">
-                    <li><a href="./mindlog.html">MindLog</a></li>
-                    <li><a href="./juicycouture.html">juicy couture</a></li>
-                    <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                    <li>
-                        <a href="./kurt-vonnegut-museum.html"
-                            >kurt vonnegut museum</a
-                        >
-                    </li>
-                    <li><a href="./shedd.html">shedd aquarium</a></li>
-                </menu>
-                <menu id="main-menu-2">
-                    <li><a href="./about.html">about</a></li>
-                    <li>
-                        <a href="./assets/Lily_Meng_Resume.pdf" download="">
-                            resume
-                        </a>
-                    </li>
-                </menu>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | Portfolio</title>
+  </head>
+  <style>
+    #announcement {
+      position: fixed;
+      background-color: white;
+      top: 5vh;
+      left: 35vw;
+      z-index: 4;
+      padding: 0px;
+    }
+    #announcement p {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body id="home">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">
+          lily <span class="mobile-hidden">meng</span>
+        </a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-cover">
+      <div id="menu-container">
+        <menu id="main-menu-1">
+          <li><a href="./index.html">home</a></li>
+          <li id="work-btn">work</li>
+        </menu>
+        <menu id="work-list">
+          <li><a href="./mindlog.html">MindLog</a></li>
+          <li><a href="./jj-signage.html">J&J digital signage</a></li>
+          <li><a href="./juicycouture.html">juicy couture</a></li>
+
+          <li>
+            <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+          </li>
+          <li><a href="./shedd.html">shedd aquarium</a></li>
+        </menu>
+        <menu id="main-menu-2">
+          <li><a href="./about.html">about</a></li>
+          <li>
+            <a href="./assets/Lily_Meng_Resume.pdf" download=""> resume </a>
+          </li>
+        </menu>
+      </div>
+    </div>
+    <main>
+      <section id="intro">
+        <div id="intro-contents">
+          <h1>
+            <span>Hi, I'm</span>
+            <br class="tablet-hidden" />
+            <span class="serif">Lily</span>
+            <br />
+            <span class="serif"><em>Meng!</em></span>
+          </h1>
+          <p>
+            I'm a designer, illustrator, and researcher, and a graduate of
+            Parsons School of Design's BFA Communication Design program. I think
+            in systems and love to incorporate play into my work.
+          </p>
+          <p>
+            I'm currently seeking full-time opportunities in graphic, brand, or
+            UI/UX design!
+          </p>
         </div>
-        <main>
-            <section id="intro">
-                <div id="intro-contents">
-                    <h1>
-                        <span>Hi, I'm</span>
-                        <br class="tablet-hidden" />
-                        <span class="serif">Lily</span>
-                        <br />
-                        <span class="serif"><em>Meng!</em></span>
-                    </h1>
-                    <p>
-                        I'm a designer, illustrator, and researcher, and a
-                        graduate of Parsons School of Design's BFA Communication
-                        Design program. I think in systems and love to
-                        incorporate play into my work.
-                    </p>
-                    <p>
-                        I'm currently seeking full-time opportunities in
-                        graphic, brand, or UI/UX design!
-                    </p>
-                </div>
-                <hr class="mobile-visible" />
-            </section>
-            <section id="work-gallery">
-                <h1 class="serif">work</h1>
-                <article>
-                    <a href="./mindlog.html">
-                        <figure>
-                            <img
-                                class="gallery-img"
-                                src="./assets/MindLog/mockupHeroWhite.png"
-                            />
-                        </figure>
-                    </a>
-                    <h2><a href="./mindlog.html">MindLog</a></h2>
-                    <h3>Creative Direction, UI/UX Design</h3>
-                    <hr />
-                </article>
-                <article>
-                    <a href="./juicycouture.html">
-                        <figure>
-                            <img
-                                class="gallery-img"
-                                src="./assets/JuicyCouture/juicySocialMockup.jpg"
-                            />
-                        </figure>
-                    </a>
-                    <h2><a href="./juicycouture.html">Juicy Couture</a></h2>
-                    <h3>
-                        Brand Identity, Graphic Design, Social Media & Email
-                        Design
-                    </h3>
-                    <hr />
-                </article>
-                <article>
-                    <a href="./jj-signage.html">
-                        <figure>
-                            <img
-                                class="gallery-img"
-                                src="./assets/JJ/jjHeroMockup.jpg"
-                            />
-                        </figure>
-                    </a>
-                    <h2>
-                        <a href="./jj-signage.html"
-                            >J&J Design Digital Signage</a
-                        >
-                    </h2>
-                    <h3>Brand Identity, Content Strategy, UI/UX Design</h3>
-                    <hr />
-                </article>
-                <article>
-                    <a href="./kurt-vonnegut-museum.html">
-                        <figure>
-                            <img
-                                class="gallery-img"
-                                src="./assets/KVM/kvmPosterMockup.jpg"
-                            />
-                        </figure>
-                    </a>
-                    <h2>
-                        <a href="./kurt-vonnegut-museum.html"
-                            >Kurt Vonnegut Museum</a
-                        >
-                    </h2>
-                    <h3>Brand Identity, Creative Direction</h3>
-                    <hr />
-                </article>
-                <article>
-                    <a href="./shedd.html">
-                        <figure>
-                            <img
-                                class="gallery-img"
-                                src="./assets/Shedd/sheddHero.png"
-                            />
-                        </figure>
-                    </a>
-                    <h2><a href="./shedd.html">Shedd Aquarium</a></h2>
-                    <h3>Brand Identity & Strategy, Creative Direction</h3>
-                </article>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
-                    email
-                </a>
-                <a
-                    class="nav-btn"
-                    href="https://www.linkedin.com/in/lilymeng17/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    linkedin
-                </a>
-            </div>
-        </footer>
-        <!-- <div id="announcement">
+        <hr class="mobile-visible" />
+      </section>
+      <section id="work-gallery">
+        <h1 class="serif">work</h1>
+        <article>
+          <a href="./mindlog.html">
+            <figure>
+              <img
+                class="gallery-img"
+                src="./assets/MindLog/mockupHeroWhite.png"
+              />
+            </figure>
+          </a>
+          <h2><a href="./mindlog.html">MindLog</a></h2>
+          <h3>Creative Direction, UI/UX Design</h3>
+          <hr />
+        </article>
+        <article>
+          <a href="./jj-signage.html">
+            <figure>
+              <img class="gallery-img" src="./assets/JJ/jjHeroMockup.jpg" />
+            </figure>
+          </a>
+          <h2>
+            <a href="./jj-signage.html">J&J Design Digital Signage</a>
+          </h2>
+          <h3>Brand Identity, Content Strategy, UI/UX Design</h3>
+          <hr />
+        </article>
+        <article>
+          <a href="./juicycouture.html">
+            <figure>
+              <img
+                class="gallery-img"
+                src="./assets/JuicyCouture/juicySocialMockup.jpg"
+              />
+            </figure>
+          </a>
+          <h2><a href="./juicycouture.html">Juicy Couture</a></h2>
+          <h3>Brand Identity, Graphic Design, Social Media & Email Design</h3>
+          <hr />
+        </article>
+
+        <article>
+          <a href="./kurt-vonnegut-museum.html">
+            <figure>
+              <img class="gallery-img" src="./assets/KVM/kvmPosterMockup.jpg" />
+            </figure>
+          </a>
+          <h2>
+            <a href="./kurt-vonnegut-museum.html">Kurt Vonnegut Museum</a>
+          </h2>
+          <h3>Brand Identity, Creative Direction</h3>
+          <hr />
+        </article>
+        <article>
+          <a href="./shedd.html">
+            <figure>
+              <img class="gallery-img" src="./assets/Shedd/sheddHero.png" />
+            </figure>
+          </a>
+          <h2><a href="./shedd.html">Shedd Aquarium</a></h2>
+          <h3>Brand Identity & Strategy, Creative Direction</h3>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+    <!-- <div id="announcement">
             <p>
                 This website is currently under construction, we'll be back
                 soon!!
             </p>
         </div> -->
-    </body>
-    <script src="./scripts/main.js"></script>
+  </body>
+  <script src="./scripts/main.js"></script>
 </html>

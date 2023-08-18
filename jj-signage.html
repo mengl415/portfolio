@@ -1,373 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="./assets/Favicon.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <meta name="description" content="Welcome!" />
-        <meta name="author" content="Lily Meng" />
-        <title>Lily Meng | J&J Design Digital Signage</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | J&J Design Digital Signage</title>
+  </head>
 
-    <style>
-        #project-hero figure img {
-            /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-            object-position: 50% 30%;
-        }
-        /* IF CENTERING DIFFERENT FOR MOBILE, PUT IN MEDIA QUERY*/
-        @media only screen and (max-width: 430px) {
-            #project-hero figure img {
-                /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
-                /* object-position: 50% 50%; */
-            }
-        }
-    </style>
+  <style>
+    #project-hero figure img {
+      /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+      object-position: 50% 30%;
+    }
+    /* IF CENTERING DIFFERENT FOR MOBILE, PUT IN MEDIA QUERY*/
+    @media only screen and (max-width: 430px) {
+      #project-hero figure img {
+        /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+        /* object-position: 50% 50%; */
+      }
+    }
+  </style>
 
-    <body id="jj-signage" class="project-page">
-        <header>
-            <nav>
-                <a class="nav-btn" href="./index.html">
-                    lily <span class="mobile-hidden">meng</span>
-                </a>
-                <a class="nav-btn" href="./play.html" id="play-btn">play</a>
-                <button id="menu-btn" onclick="toggleMenu()">menu</button>
-            </nav>
-        </header>
-        <div id="menu-cover">
-            <div id="menu-container">
-                <menu id="main-menu-1">
-                    <li><a href="./index.html">home</a></li>
-                    <li id="work-btn">work</li>
-                </menu>
-                <menu id="work-list">
-                    <li><a href="./mindlog.html">MindLog</a></li>
-                    <li><a href="./juicycouture.html">juicy couture</a></li>
-                    <li><a href="./jj-signage.html">J&J digital signage</a></li>
-                    <li>
-                        <a href="./kurt-vonnegut-museum.html"
-                            >kurt vonnegut museum</a
-                        >
-                    </li>
-                    <li><a href="./shedd.html">shedd aquarium</a></li>
-                </menu>
-                <menu id="main-menu-2">
-                    <li><a href="./about.html">about</a></li>
-                    <li>
-                        <a href="./assets/Lily_Meng_Resume.pdf" download="">
-                            resume
-                        </a>
-                    </li>
-                </menu>
-            </div>
+  <body id="jj-signage" class="project-page">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">
+          lily <span class="mobile-hidden">meng</span>
+        </a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-cover">
+      <div id="menu-container">
+        <menu id="main-menu-1">
+          <li><a href="./index.html">home</a></li>
+          <li id="work-btn">work</li>
+        </menu>
+        <menu id="work-list">
+          <li><a href="./mindlog.html">MindLog</a></li>
+          <li><a href="./jj-signage.html">J&J digital signage</a></li>
+          <li><a href="./juicycouture.html">juicy couture</a></li>
+
+          <li>
+            <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+          </li>
+          <li><a href="./shedd.html">shedd aquarium</a></li>
+        </menu>
+        <menu id="main-menu-2">
+          <li><a href="./about.html">about</a></li>
+          <li>
+            <a href="./assets/Lily_Meng_Resume.pdf" download=""> resume </a>
+          </li>
+        </menu>
+      </div>
+    </div>
+    <main>
+      <section id="project-hero">
+        <figure>
+          <img src="./assets/JJ/jjHeroMockup.jpg" />
+        </figure>
+        <div id="project-description">
+          <div id="project-name">
+            <h1 id="project-title">J&J Design Digital Signage</h1>
+          </div>
+          <div id="project-specs">
+            <h3><b>Johnson & Johnson Intern Project</b></h3>
+            <h3>Timeline: <b>10 weeks</b></h3>
+            <h3>
+              Role:
+              <b>UI/UX Designer, Brand Designer</b>
+            </h3>
+            <h3>Tools: <b>Notion, PowerPoint, Figma</b></h3>
+            <h3>
+              Team:
+              <b>Sophia Geanacopoulos, Bryce Yao, Navya Salwan</b>
+            </h3>
+          </div>
         </div>
-        <main>
-            <section id="project-hero">
-                <figure>
-                    <img src="./assets/JJ/jjHeroMockup.jpg" />
-                </figure>
-                <div id="project-description">
-                    <div id="project-name">
-                        <h1 id="project-title">J&J Design Digital Signage</h1>
-                    </div>
-                    <div id="project-specs">
-                        <h3><b>Johnson & Johnson Intern Project</b></h3>
-                        <h3>Timeline: <b>10 weeks</b></h3>
-                        <h3>
-                            Role:
-                            <b>UI/UX Designer, Brand Designer</b>
-                        </h3>
-                        <h3>Tools: <b>Notion, PowerPoint, Figma</b></h3>
-                        <h3>
-                            Team:
-                            <b>Sophia Geanacopoulos, Bryce Yao, Navya Salwan</b>
-                        </h3>
-                    </div>
-                </div>
-            </section>
-            <hr class="mobile-visible" />
-            <section id="project-container">
-                <section id="toc-container" class="tablet-hidden">
-                    <ul id="toc">
-                        <li><a href="#overview">overview</a></li>
-                        <li>
-                            <a href="#secondary-research">secondary research</a>
-                        </li>
-                        <li>
-                            <a href="#primary-research"> primary research </a>
-                        </li>
-                        <li><a href="#insights">insights</a></li>
-                        <li><a href="#archetypes">user archetypes</a></li>
-                        <li>
-                            <a href="#content-strategy">content strategy</a>
-                        </li>
-                        <li><a href="#wireframing">wireframing</a></li>
-                        <li><a href="#user-testing">user testing</a></li>
-                        <li><a href="#reflection">final solution</a></li>
-                        <li><a href="#playbook">playbook</a></li>
-                        <li><a href="#reflection">reflection</a></li>
-                    </ul>
-                </section>
-                <section id="project-contents">
-                    <article>
-                        <h2>
-                            Reinventing the digital signage platform for RXD,
-                            laboratory, and science functions.
-                        </h2>
-                        <p>
-                            During Johnson & Johnson Design Studio's 10-week
-                            professional program, our collaborative intern
-                            project was to consider how we might utilize digital
-                            signage to create a more connected, communicative,
-                            and joyful workplace environment while creating a
-                            fluid user-experience for both our target audience
-                            and the designers and content strategists on the
-                            back-end.
-                        </p>
-                    </article>
-                    <article id="overview">
-                        <h4>overview</h4>
-                        <p>
-                            Our intern cohort was tasked to leverage digital
-                            signage to create a more connected and joyful
-                            workplace environment while considering hybrid
-                            workplace models; create and curate a smooth
-                            user-experience and a content creation and
-                            management strategy for the back-end; and create a
-                            cohesive platform relevant across all US sites. Our
-                            team was responsible for solving this problem for
-                            lab, research, and RXD functions.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjApproach.svg" />
-                        </figure>
-                    </article>
-                    <article id="secondary-research">
-                        <h4>secondary research</h4>
-                        <p>
-                            For our research phase, we conducted both secondary
-                            and primary research. Our secondary research
-                            consisted of desk research and analogous case
-                            studies of Korbyt, the digital signage platform that
-                            would be used, and other similar content management
-                            systems. I created a system to organize the types of
-                            sources for desk research in our shared Notion,
-                            which included analogous cases for reference,
-                            relevant research, and the psychology of signage and
-                            reading signage.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjSignageSecondary.png" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjCaseStudies.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjSecondaryTakeaways.jpg" />
-                        </figure>
-                    </article>
-                    <article id="primary-research">
-                        <h4>primary research</h4>
-                        <p>
-                            Our primary research consisted of surveys and user
-                            interviews of both employees in R&D/science
-                            functions and content managers/strategists for
-                            Johnson & Johnson's current digital signage systems.
-                            We then affinity mapped all our research in Mural
-                            and generated insights based on our research, which
-                            then led us to our user archetypes and how-might-we
-                            opportunities.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjSurvey1.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjSurvey2.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjInterviewQuestions.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjPrimaryTakeaways.jpg" />
-                        </figure>
-                    </article>
-                    <article id="insights">
-                        <h4>insights</h4>
-                        <p>
-                            We affinity mapped and synthesized all our research
-                            in Mural and generated insights based on our
-                            research, which then led us to our user archetypes
-                            and how-might-we opportunities.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjInsightsMapping.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjInsight1.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjInsight2.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjInsight3.jpg" />
-                        </figure>
-                    </article>
-                    <article id="archetypes">
-                        <h4>user archetypes</h4>
-                        <figure>
-                            <img src="./assets/JJ/jjUserArchetypes.jpg" />
-                        </figure>
-                    </article>
-                    <article id="content-strategy">
-                        <h4>content strategy</h4>
-                        <p>
-                            In our designing and prototyping phase, we began
-                            with a content strategy, dividing content into
-                            buckets and organizing it based on global and local
-                            communications. Since a lot of our research findings
-                            indicated the types of communication employees
-                            received that were important and meaningful were
-                            able to be categorized, we did so for the ease of
-                            the content manager who would be curating and
-                            delivering this news.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjContentStrat.svg" />
-                        </figure>
-                    </article>
-                    <article id="wireframing">
-                        <h4>wireframing</h4>
-                        <p>
-                            We then designed initial wireframes using our
-                            content strategy, dividing and organizing layouts
-                            between global and local communications, and mocked
-                            up a few key screens for user testing and feedback.
-                            I proposed an addition to Johnson & Johnson’s
-                            current brand identity to introduce the idea of
-                            shape language and rounded shapes as a way to soften
-                            the overall corporate feel and bring some more joy
-                            and playfulness visually.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjPrototype1.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjPrototype2.svg" />
-                        </figure>
-                    </article>
-                    <article id="user-testing">
-                        <h4>user testing</h4>
-                        <p>
-                            We conducted two rounds of user testing through
-                            Zoom, improving based on feedback after both rounds,
-                            with both content managers and lab/science/RXD
-                            employees.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjUserTesting1.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjUserTesting2.jpg" />
-                        </figure>
-                    </article>
-                    <article id="final-solution">
-                        <h4>final solution</h4>
-                        <p>
-                            Our final solution consisted of refined content
-                            templates within Figma for content managers to
-                            utilize, as well as visual indicators and
-                            instructions of how the templates should be
-                            integrated with Korbyt’s functions. Along with the
-                            templates themselves, examples of populated screens
-                            and a library of assets and custom typefaces were
-                            also there for ease of use. I also created a
-                            playbook that provides guidance on the brand
-                            guidelines, content strategy, and hierarchy of the
-                            templates, along with the basics of navigating
-                            through Figma. We felt that Figma was the best space
-                            for the templates and playbook to live in so it
-                            could continue to evolve and change with the
-                            company's guidelines and endeavors as needed.
-                        </p>
-                        <figure>
-                            <img src="./assets/JJ/jjFigmaSnapshot.jpg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjFinal2.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjFinal3.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjFinal1.svg" />
-                        </figure>
-                    </article>
-                    <article id="playbook">
-                        <h4>playbook</h4>
-                        <figure>
-                            <img src="./assets/JJ/jjWordCount.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjIcons.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjShapes.svg" />
-                        </figure>
-                        <figure>
-                            <img src="./assets/JJ/jjIncorrect.svg" />
-                        </figure>
-                    </article>
-                    <article id="reflection">
-                        <h4>reflection</h4>
-                        <p>
-                            Going into this project was very daunting, as it was
-                            a project with a scope completely unfamiliar to me.
-                            I’ve mostly been used to digital solutions being for
-                            web or mobile applications, and I knew almost
-                            nothing about laboratory or research functions.
-                            However, I felt that being in a team was really
-                            helpful, as even though none of us had in-depth
-                            knowledge, we were able to work at building our
-                            knowledge with different perspectives and
-                            encouraging each other, which made the project much
-                            less daunting.
-                        </p>
-                        <p>
-                            Looking back, if we were able to, it would have
-                            helped our project a lot to actually visit some of
-                            the sites and perhaps shadow some of the researchers
-                            in their day-to-day. With more time, I would have
-                            also suggested testing the displays within the
-                            Johnson & Johnson Design building for a few days to
-                            gather observational data and user feedback
-                            physically. Overall, my team and I are proud of what
-                            we were able to accomplish in a short of amount of
-                            time, especially considering we all had other main
-                            duties to take care of during our internship.
-                        </p>
-                    </article>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <a class="nav-btn" href="mailto:lilymeng517@gmail.com">
-                    email
-                </a>
-                <a
-                    class="nav-btn"
-                    href="https://www.linkedin.com/in/lilymeng17/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    linkedin
-                </a>
-            </div>
-        </footer>
-    </body>
-    <script src="./scripts/main.js"></script>
+      </section>
+      <hr class="mobile-visible" />
+      <section id="project-container">
+        <section id="toc-container" class="tablet-hidden">
+          <ul id="toc">
+            <li><a href="#overview">overview</a></li>
+            <li>
+              <a href="#secondary-research"> research</a>
+            </li>
+            <!-- <li>
+              <a href="#primary-research"> primary research </a>
+            </li> -->
+            <li><a href="#insights">insights</a></li>
+            <li><a href="#archetypes">user archetypes</a></li>
+            <li>
+              <a href="#content-strategy">content strategy</a>
+            </li>
+            <li><a href="#wireframing">wireframing</a></li>
+            <li><a href="#user-testing">user testing</a></li>
+            <li><a href="#reflection">final solution</a></li>
+            <li><a href="#playbook">playbook</a></li>
+            <li><a href="#reflection">reflection</a></li>
+            <li><a href="juicycouture.html">next project</a></li>
+          </ul>
+        </section>
+        <section id="project-contents">
+          <article>
+            <h2>
+              Reinventing the digital signage platform for RXD, laboratory, and
+              science functions.
+            </h2>
+            <p>
+              During Johnson & Johnson Design Studio's 10-week professional
+              program, our collaborative intern project was to consider how we
+              might utilize digital signage to create a more connected,
+              communicative, and joyful workplace environment while creating a
+              fluid user-experience for both our target audience and the
+              designers and content strategists on the back-end.
+            </p>
+          </article>
+          <article id="overview">
+            <h4>overview</h4>
+            <p>
+              Our intern cohort was tasked to leverage digital signage to create
+              a more connected and joyful workplace environment while
+              considering hybrid workplace models; create and curate a smooth
+              user-experience and a content creation and management strategy for
+              the back-end; and create a cohesive platform relevant across all
+              US sites. Our team was responsible for solving this problem for
+              lab, research, and RXD functions.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjApproach.svg" />
+            </figure>
+          </article>
+          <article id="secondary-research">
+            <h4>secondary research</h4>
+            <p>
+              For our research phase, we conducted both secondary and primary
+              research. Our secondary research consisted of desk research and
+              analogous case studies of Korbyt, the digital signage platform
+              that would be used, and other similar content management systems.
+              I created a system to organize the types of sources for desk
+              research in our shared Notion, which included analogous cases for
+              reference, relevant research, and the psychology of signage and
+              reading signage.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjSignageSecondary.png" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjCaseStudies.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjSecondaryTakeaways.jpg" />
+            </figure>
+          </article>
+          <article id="primary-research">
+            <h4>primary research</h4>
+            <p>
+              Our primary research consisted of surveys and user interviews of
+              both employees in R&D/science functions and content
+              managers/strategists for Johnson & Johnson's current digital
+              signage systems. We then affinity mapped all our research in Mural
+              and generated insights based on our research, which then led us to
+              our user archetypes and how-might-we opportunities.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjSurvey1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjSurvey2.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjInterviewQuestions.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjPrimaryTakeaways.jpg" />
+            </figure>
+          </article>
+          <article id="insights">
+            <h4>insights</h4>
+            <p>
+              We affinity mapped and synthesized all our research in Mural and
+              generated insights based on our research, which then led us to our
+              user archetypes and how-might-we opportunities.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjInsightsMapping.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjInsight1.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjInsight2.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjInsight3.jpg" />
+            </figure>
+          </article>
+          <article id="archetypes">
+            <h4>user archetypes</h4>
+            <figure>
+              <img src="./assets/JJ/jjUserArchetypes.jpg" />
+            </figure>
+          </article>
+          <article id="content-strategy">
+            <h4>content strategy</h4>
+            <p>
+              In our designing and prototyping phase, we began with a content
+              strategy, dividing content into buckets and organizing it based on
+              global and local communications. Since a lot of our research
+              findings indicated the types of communication employees received
+              that were important and meaningful were able to be categorized, we
+              did so for the ease of the content manager who would be curating
+              and delivering this news.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjContentStrat.svg" />
+            </figure>
+          </article>
+          <article id="wireframing">
+            <h4>wireframing</h4>
+            <p>
+              We then designed initial wireframes using our content strategy,
+              dividing and organizing layouts between global and local
+              communications, and mocked up a few key screens for user testing
+              and feedback. I proposed an addition to Johnson & Johnson’s
+              current brand identity to introduce the idea of shape language and
+              rounded shapes as a way to soften the overall corporate feel and
+              bring some more joy and playfulness visually.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjPrototype1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjPrototype2.svg" />
+            </figure>
+          </article>
+          <article id="user-testing">
+            <h4>user testing</h4>
+            <p>
+              We conducted two rounds of user testing through Zoom, improving
+              based on feedback after both rounds, with both content managers
+              and lab/science/RXD employees.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjUserTesting1.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjUserTesting2.jpg" />
+            </figure>
+          </article>
+          <article id="final-solution">
+            <h4>final solution</h4>
+            <p>
+              Our final solution consisted of refined content templates within
+              Figma for content managers to utilize, as well as visual
+              indicators and instructions of how the templates should be
+              integrated with Korbyt’s functions. Along with the templates
+              themselves, examples of populated screens and a library of assets
+              and custom typefaces were also there for ease of use. I also
+              created a playbook that provides guidance on the brand guidelines,
+              content strategy, and hierarchy of the templates, along with the
+              basics of navigating through Figma. We felt that Figma was the
+              best space for the templates and playbook to live in so it could
+              continue to evolve and change with the company's guidelines and
+              endeavors as needed.
+            </p>
+            <figure>
+              <img src="./assets/JJ/jjFigmaSnapshot.jpg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjFinal2.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjFinal3.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjFinal1.svg" />
+            </figure>
+          </article>
+          <article id="playbook">
+            <h4>playbook</h4>
+            <figure>
+              <img src="./assets/JJ/jjWordCount.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjIcons.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjShapes.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/JJ/jjIncorrect.svg" />
+            </figure>
+          </article>
+          <article id="reflection">
+            <h4>reflection</h4>
+            <p>
+              Going into this project was very daunting, as it was a project
+              with a scope completely unfamiliar to me. I’ve mostly been used to
+              digital solutions being for web or mobile applications, and I knew
+              almost nothing about laboratory or research functions. However, I
+              felt that being in a team was really helpful, as even though none
+              of us had in-depth knowledge, we were able to work at building our
+              knowledge with different perspectives and encouraging each other,
+              which made the project much less daunting.
+            </p>
+            <p>
+              Looking back, if we were able to, it would have helped our project
+              a lot to actually visit some of the sites and perhaps shadow some
+              of the researchers in their day-to-day. With more time, I would
+              have also suggested testing the displays within the Johnson &
+              Johnson Design building for a few days to gather observational
+              data and user feedback physically. Overall, my team and I are
+              proud of what we were able to accomplish in a short of amount of
+              time, especially considering we all had other main duties to take
+              care of during our internship.
+            </p>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
 </html>
