@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="description" content="Welcome!" />
+    <meta name="author" content="Lily Meng" />
+    <title>Lily Meng | Momento</title>
+  </head>
+
+  <style>
+    #project-hero figure img {
+      /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+      object-position: 50% 30%;
+    }
+    /* IF CENTERING DIFFERENT FOR MOBILE, PUT IN MEDIA QUERY*/
+    @media only screen and (max-width: 430px) {
+      #project-hero figure img {
+        /* OBJ POSITION CHANGES CENTERING, (X% ,Y%)*/
+        /* object-position: 50% 50%; */
+      }
+    }
+  </style>
+
+  <body id="momento" class="project-page">
+    <header>
+      <nav>
+        <a class="nav-btn" href="./index.html">
+          lily <span class="mobile-hidden">meng</span>
+        </a>
+        <a class="nav-btn" href="./play.html" id="play-btn">play</a>
+        <button id="menu-btn" onclick="toggleMenu()">menu</button>
+      </nav>
+    </header>
+    <div id="menu-cover">
+      <div id="menu-container">
+        <menu id="main-menu-1">
+          <li><a href="./index.html">home</a></li>
+          <li id="work-btn">work</li>
+        </menu>
+        <menu id="work-list">
+          <li><a href="./mindlog.html">MindLog</a></li>
+          <li><a href="./jj-signage.html">J&J digital signage</a></li>
+          <li><a href="./momento.html">Momento</a></li>
+          <li><a href="./juicycouture.html">juicy couture</a></li>
+          <li>
+            <a href="./kurt-vonnegut-museum.html">kurt vonnegut museum</a>
+          </li>
+          <li><a href="./shedd.html">shedd aquarium</a></li>
+        </menu>
+        <menu id="main-menu-2">
+          <li><a href="./about.html">about</a></li>
+          <li>
+            <a href="./assets/Lily_Meng_Resume.pdf" download=""> resume </a>
+          </li>
+        </menu>
+      </div>
+    </div>
+    <main>
+      <section id="project-hero">
+        <figure>
+          <img src="./assets/momento/momentoCover.svg" />
+        </figure>
+        <div id="project-description">
+          <div id="project-name">
+            <h1 id="project-title">Momento</h1>
+          </div>
+          <div id="project-specs">
+            <h3>Class: <b>Research/Development Methods</b></h3>
+            <h3>Timeline: <b>12 weeks</b></h3>
+            <h3>
+              Role:
+              <b>UX Researcher, UI Designer</b>
+            </h3>
+            <h3>Tools: <b>Google Suite, InDesign, Figma</b></h3>
+          </div>
+        </div>
+      </section>
+      <hr class="mobile-visible" />
+      <section id="project-container">
+        <section id="toc-container" class="tablet-hidden">
+          <ul id="toc">
+            <li>
+              <a href="#approach">approach</a>
+            </li>
+            <li><a href="#discovery">discovery</a></li>
+            <li><a href="#define">define</a></li>
+            <li>
+              <a href="#ideate">ideate</a>
+            </li>
+            <li><a href="#prototype">prototype</a></li>
+            <li><a href="#reflection">reflection</a></li>
+            <li><a href="juicycouture.html">next project</a></li>
+          </ul>
+        </section>
+        <section id="project-contents">
+          <article>
+            <h2>Understanding how to foster closer friendships in college.</h2>
+            <p>
+              The overarching research topic for my class was “relationships,”
+              and I chose the domain of friendships during college. For many,
+              college is the next big step in their life, with multiple
+              variables constantly changing around and within them, thus begging
+              the questions: why are some people still good friends with their
+              high school friends while others are not? Why do we have certain
+              friends that we still consider friends even if we contact each
+              other only once in a while?
+            </p>
+          </article>
+          <article id="approach">
+            <h4>approach</h4>
+            <p>
+              Over the course of 12 weeks, I followed the human-centered design
+              approach with clear discovery, defining, ideation, and delivering
+              phases.
+            </p>
+            <figure>
+              <img src="./assets/momento/approach.svg" />
+            </figure>
+          </article>
+          <article id="discovery">
+            <h4>discovery</h4>
+            <p>
+              During my discovery phase, my research consisted of desk research,
+              observational research, user interviews, surveys, and lastly,
+              probe kits. I wanted to ensure I had a wide variety of research
+              from various angles in order to better understand what close
+              friendships looked like, how they formed, and how they were
+              maintained.
+            </p>
+            <figure>
+              <img src="./assets/momento/research1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/research2.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/research3.svg" />
+            </figure>
+          </article>
+          <article id="define">
+            <h4>define</h4>
+            <p>
+              To synthesize my findings, I affinity mapped datapoints,
+              synthesized them, and deduced insights and opportunities. I also
+              created user personas and mindset mapped them to gain a visual
+              overview of the spread of my target demographic.
+            </p>
+            <figure>
+              <img src="./assets/momento/affinityMap.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/insights.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/personas.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/mindsetMap.svg" />
+            </figure>
+          </article>
+          <article id="ideate">
+            <h4>ideate</h4>
+            <p>
+              As the problem is maintaining current friendships rather than
+              establishing new ones, I felt that it would be counter-intuitive
+              to introduce a new platform or method rather than strengthen
+              current ones that are used within friendships. Thus, I sketched
+              out and tested my idea, Momento, an extension available in current
+              messaging apps that collects images, files, and videos sent to
+              create a curated and interactive Pinterest board. This idea
+              stemmed from my probe kit, as it seemed participants greatly
+              enjoyed collecting and creating photo collages of their past chat
+              logs.
+            </p>
+            <p>
+              I did two iterations and tested each iteration, improving each
+              based on the feedback grid I made from their comments.
+            </p>
+            <figure>
+              <img src="./assets/momento/iteration1.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/i1Feedback.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/iteration2.svg" />
+            </figure>
+            <figure>
+              <img src="./assets/momento/i2Feedback.svg" />
+            </figure>
+          </article>
+          <article id="reflection">
+            <h4>reflection</h4>
+            <p>
+              From this project, I learned a lot about conducting user research
+              empathetically and effectively, as well as how to phrase questions
+              or tasks to receive unbiased feedback. It was also generally
+              enjoyable to read people's comments and reminiscing of their
+              friendships, especially as I was uncovering new insights that made
+              sense but I hadn't consciously thought about before.
+            </p>
+            <p>
+              If I were to redo this project, I would spend more time conducting
+              research specifically in how current close friendships are
+              maintained. I recognize that that is a blind spot in my research,
+              as I spent a lot of time investigating and establishing a standard
+              of what close friendships looked like without allotting the same
+              time to maintaining them.
+            </p>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a class="nav-btn" href="mailto:lilymeng517@gmail.com"> email </a>
+        <a
+          class="nav-btn"
+          href="https://www.linkedin.com/in/lilymeng17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
+</html>
